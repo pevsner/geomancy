@@ -10,9 +10,14 @@
 
   <link rel="stylesheet" href="css_hover_button.css">
 
-</head
+1" checked>1<br>
+  <input type="checkbox" name="one" value="2" checked>2<br>
+  <input type="checkbox" name="one" value="4" checked>4<br>
+  <input type="checkbox" name="one" value="8">
+/head>
 <body> 
-   
+  <input type="checkbox" name="one" value="
+ 
 <div id='container2'>   
   <H2 style="text-align:center;">Geomancy</H2>
   <p style="text-align:center;">This is just a tester, check back soon.</p>  
