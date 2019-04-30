@@ -53,6 +53,11 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 /* Show in default resolution screen*/
 #container2 {
 width: 960px;
