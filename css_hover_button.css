@@ -4,7 +4,7 @@ p {
   font-family: Arial,Helvetica,sans-serif;
   color: #000080;
   font-weight: inherit;
-  line-height: 160%;
+  line-height: 180%;
   font-size: 100%;
 }
 hr {
@@ -16,6 +16,10 @@ hr {
 h1{
     font-family: Arial,Helvetica,sans-serif;
     color: #000080
+}
+h2{
+    font-family: Arial,Helvetica,sans-serif;
+    color: #7B68EE
 }
 h3{
     color: red;
@@ -31,7 +35,7 @@ a:hover {
 }
 a:visited {
   text-decoration: none;
-  color: #663366;
+  color:#CD853F ;
 }
 .small_text {
   font-family: Arial,Helvetica,sans-serif;
