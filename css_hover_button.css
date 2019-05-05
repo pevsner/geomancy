@@ -28,11 +28,6 @@ p {
 .psmall {
     font-size: 90%
 }
-.psmall1 {
-    font-size: 90%
-    font-style: italic;		 
-		 
-}
 hr {
     border: 1px dotted #ff0000;
     border-style: none none dotted; 
@@ -120,11 +115,13 @@ background-color: #fff; }
 li{
 font-family: Arial,Helvetica,sans-serif;
 }
-/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except 
+iPhone4, 640x960) */    
 @media only screen and (max-width: 479px){
     #container2 { width: 90%; }
 }
-/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except 
+iPhone4, 640x960) */    
 @media only screen and (max-width: 768px){
     #container2 { width: 90%; }
 }
