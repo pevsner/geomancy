@@ -6,7 +6,7 @@
 <style>
   hr{
       border-top: 1px solid #ccc;
-      margin:2%;
+      margin-left:2%;
   }
 p{
       text-align:justify;
@@ -56,31 +56,41 @@ h2{
 </head>
 <body>
 
-<h1 style="margin:10px;">Horoscope</h1>
+<h1 style="margin:10px;">Welcome</h1>
 <div class="row">
   <div class="column1"> 
-    <h2>Calculate your personal element</h2>
+<p>
+This site explains Taoist Classical Feng Shui in (hopefully) clear, concise, jargon free English. 
+It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
+<br><br>
+Please use it as a resource to discover and implement change.
+  </p>
     <p>
-Your Annual number gives you your Element by year of birth.
+It is best to read the sections in sequence:
+<b>Qi</b> = The energies involved.
 <br><br>
-Your Personal number gives you your Element by solar month
+<b>Yin & Yang</b> = Duality of the physical.
 <br><br>
-A  full reading will give you your day and minute of birth.
+<b>5 Elements</b> = The main types of energy, their origin and qualities.
 <br><br>
-Your personal element gives guidance on whether you are more suited to the energies that occur in an Eastern Life or Western life environment.
+<b>8 Directions</b> = Energy types by direction, qualities and portents of spaces.
 <br><br>
-
-Eastern Life directions  = N (water), E (wood), SE (small wood) & S (fire).
-<br><br>
-
-Western Life directions = NE (small earth), SW (earth), W (metal) & NW (big metal).
-<br><br>
+The sub-sections give additional information.
 
     </p>
+    <h2>Introduction</h2>
+<p>
+  Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
+<br><br>
+Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have their own systems of explanation.
+<br><br>
+Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
+<br><br>
+  </p>
   </div>
   <div class="column2">
     <p class="pcenter">
-  <img src="imgs/lo_shu_sq.jpg">
+  <img src="imgs/world.jpg">
     </p>
   </div>
 </div>
@@ -89,11 +99,8 @@ Western Life directions = NE (small earth), SW (earth), W (metal) & NW (big meta
 
 <div class="row">
   <div class="column1"> 
-    <h2>Zodiac Signs</h2>
+    <h2>Sub Title</h2>
     <p>
-The twelve Zodiac signs (12 year & 12 month cycle) are listed in order.
-
-N.B. These zodiac Animals are symbolic of the energy types. So there is a symbolic animal for each Year (12 year cycle - gives overall indication), a  monthly ( 12 solar month cycle - gives further detail), and time of birth (gives even further detail). However your Personal Element is sufficient for ascertaining the best directions for you.
     </p>
   </div>
   <div class="column2">
