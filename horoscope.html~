@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  hr{
+      border-top: 1px solid #ccc;
+      margin:2%;
+  }
+p{
+      text-align:justify;
+      margin-left:2%;
+}
+h2{
+    margin-left:2%
+}
+.pcenter{
+      text-align:center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 55%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+    .column2{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 style="margin:10px;">Horoscope</h1>
+<div class="row">
+  <div class="column1"> 
+    <h2>Calculate your personal element</h2>
+    <p>
+Your Annual number gives you your Element by year of birth.
+<br><br>
+Your Personal number gives you your Element by solar month
+<br><br>
+A  full reading will give you your day and minute of birth.
+<br><br>
+Your personal element gives guidance on whether you are more suited to the energies that occur in an Eastern Life or Western life environment.
+<br><br>
+
+Eastern Life directions  = N (water), E (wood), SE (small wood) & S (fire).
+<br><br>
+
+Western Life directions = NE (small earth), SW (earth), W (metal) & NW (big metal).
+<br><br>
+
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+  <img src="imgs/lo_shu_sq.jpg">
+    </p>
+  </div>
+</div>
+
+  <hr>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>Zodiac Signs</h2>
+    <p>
+The twelve Zodiac signs (12 year & 12 month cycle) are listed in order.
+
+N.B. These zodiac Animals are symbolic of the energy types. So there is a symbolic animal for each Year (12 year cycle - gives overall indication), a  monthly ( 12 solar month cycle - gives further detail), and time of birth (gives even further detail). However your Personal Element is sufficient for ascertaining the best directions for you.
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+  <img src="imgs/bagua1.jpg">
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
+
