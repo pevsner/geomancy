@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 /* Navigation start */
-ul {
+ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,25 +13,27 @@ ul {
   background-color: #333;
 }
 
-li {
-  float: left;
-}
+ul.topnav li {float: left;}
 
-li a {
+ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 8px 10px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
 
-.active {
-  background-color: #4CAF50;
-}
 
 /* navigation end */  
   hr{
@@ -87,16 +89,14 @@ h2{
 </head>
 <body>
 <!-- navigation -->
-<ul>
-  <li><a href="#intro">Intro</a></li>
-  <li><a href="#yinyang">Yin Yang</a></li>
-  <li><a class="active" href="#5ele">5 Elements</a></li>
-  <li><a href="#8dir">8 Directions</a></li>
-  <li><a href="#site">Siting</a></li>
-  <li><a href="#horo">Horoscope</a></li>
-  <li><a href="#adv">Advanced</a></li>
-  <li><a href="#tips">Tips</a></li>
-  <li><a href="#reading">Reading List</a></li>
+
+<ul class="topnav">
+  <li><a href="#home"><b>^</b></a></li>
+  <li><a href="#Theory">Theory</a></li>
+  <li><a class="active" href="#5ele">Applying</a></li>
+  <li ><a href="#advanced">Advanced</a></li>
+  <li ><a href="#tips">Tips</a></li>
+  <li class="right"><a href="#application">contact</a></li>
 </ul>
 <!-- navigation end -->
 
