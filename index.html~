@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+p {
+  text-align: justify;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #000080;
+  font-weight: inherit;
+  line-height: 1.2em;
+  font-size: 1em;
+}
+
+.pcenter {
+    text-align: center;
+}
+.psmall {
+    font-size: 90%
+}
+
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li.right {float: right;}
+
+/*@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+*/
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except 
+iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #container2 { width: 90%; }
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except 
+iPhone4, 640x960) */    
+@media only screen and (max-width: 768px){
+    #container2 { width: 90%; }
+}
+</style>
+
+</head>
+
+<body>
+<div id="container2">
+<ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#general">Theory</a></li>
+  <li><a href="#yinyang">Yin & Yang</a></li>
+  <li><a href="#5ele">5 Elements</a></li>
+  <li><a href="#8dir">8 Directions</a></li>
+  <li><a href="#sit">Siting</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+</div>
+<div style="padding:0 12px;margin: 10px;">
+  <h2>Geomancy & Feng Shui</h2>
+  <hr>
+<h2>Introduction</h2>
+  <p>Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth,
+    mancy=divination or reading).
+   <br>
+   Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian,
+   Nordic, Mayan etc.) have their own systems of explanation.
+   <br>
+   Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well
+   documented explanations.
+  </p>
+  <img class="center"; title="world" alt="world" src="imgs/world.jpg">
+    <a id="general">
+<h2></a>Feng Shui - general</h2>
+<p>The Taoists explained energetic interactions with a  system derived from their knowledge of
+  creation. The theory underlying Feng Shui is the same for all Taoist practices including the
+  Martial arts (Tai Qi Chuan, Qi Gong, etc.), Medicine (Acupuncture, Herbal remedies etc.)
+  and Internal Alchemy.    <br>
+ The concept of Qi (energy) its creation, varied qualities and interactions is key.<br>
+    <br>
+    There are a number of different Schools (approaches) of Feng Shui (Form School, Compass School,
+    Black Sect School, Flying Star School Classical School). The Classical School is an amalgam of
+    traditional theories and this is explained here.</p>
+<img class="center" title="bagua" alt="bagua" src="imgs/bagua1_small.jpg"><p class="pcenter">8 directions (bagua)</p>
+<h2><a name="definition"></a>Feng Shui - definition</h2>
+<p><b>Feng</b>is Qi (energy) that flows above the ground and occupies every space there is, it flows
+  as wind, and is fast moving. It's characteristics are dependent upon the direction in which it
+  flows and the environment it occupies. It can be partially described as electromagnetically
+  charged particles in the atmosphere.</p>
+<p><font color="#66ccff"><b>Shui</b></font></p>
+<p>is Qi (energy) that is contained within the earth and is inherent in
+the structure of a building (all mass), it is slow moving. Shui can be
+experienced as a cool blue energy, hence being called water, it is
+essentially gravitational force.</p>
+<br>
+<p>The practice of Feng Shui aims to balance these energies
+to benefit the occupant/s. It is a system of assessing the quality of
+energies at play and calculating how they interact.(Yang) above<br>
+<br>
+
+  <img class="center" title="wind/water" src="imgs/red_blue.jpg" alt="windwater">
+<p class="pcenter">water - Shui (Yin) below.</p>
+
+<h2>Feng Shui - application</h2>
+<p>A magnetic compass (Lo Pan) is used to determine
+site/space orientation, the relevant energies at play and how
+they interact. Qi (energy) has different characteristics dependant upon
+  direction.
+  <br>
+  ( please refer to the <a href="8 directions.html">8 Directions</a> section of this site for
+  details).
+<br>
+Assessment is based on orientation, personal reading and other general observations which are
+outlined below.</p>
+
+  <img class="center" title="compass" src="imgs/compass.jpg" alt="compass">
+<p class="pcenter">Lo Pan - Compass</p>
+
+</div>
+
+
+</body>
+</html>
