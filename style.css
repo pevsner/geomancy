@@ -1,98 +1,123 @@
 /*Strip the ul of padding and list styling*/
-ul {
-    list-style-type:none;
+body{
     margin:0;
-    padding:0;
-    position: absolute;
 }
-/*Create a horizontal list with spacing*/
-li {
-    display:inline-block;
-    float: left;
-    margin-right: 1px;
+  hr{
+      border-top: 1px solid #ccc;
+      margin-left:2%;
+  }
+  p{
+      color:navy;
+      font-size:1em;
+      text-align:justify;
 }
-/*Style for menu links*/
-li a {
-    display:block;
-    min-width:140px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
-    background: #2f3036;
-    text-decoration: none;
+  h1,h2,h3,h4 {
+    color:#473C8B  
+    margin-left:2%
 }
-/*Hover state for top level links*/
-li:hover a {
-    background: #19c589;
+  .pcenter{
+      text-align:center;
 }
-/*Style for dropdown links*/
-li:hover ul a {
-    background: #f3f3f3;
-    color: #2f3036;
-    height: 40px;
-    line-height: 40px;
+  * {
+  box-sizing: border-box;
 }
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-    background: #19c589;
-    color: #fff;
+
+  table{
+      margin:2%;
+  }
+  
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  margin:3%;
 }
-/*Hide dropdown links until they are needed*/
-li ul {
-    display: none;
+
+.column {
+  float: left;
+  width: 100%;
+  margin:3%;
 }
-/*Make dropdown links vertical*/
-li ul li {
-    display: block;
-    float: none;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-/*Prevent text wrapping*/
-li ul li a {
-    width: auto;
-    min-width: 100px;
-    padding: 0 20px;
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1{
+    width: 100%;
+  }
 }
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
-    display: block;
+@media screen and (max-width: 600px) {
+    .column2{
+    width: 100%;
+  }
 }
-/*Style 'show menu' label button and hide it by default*/
-.show-menu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    color: #fff;
-    background: #19c589;
-    text-align: center;
-    padding: 10px 0;
-    display: none;
+
+
+/* Normalize the lists */
+.menu,
+.sub-menu {
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0;
+  }
 }
-/*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
-}
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
-/*Responsive Styles*/
-@media screen and (max-width : 760px){
-    /*Make dropdown links appear inline*/
-    ul {
-        position: static;
-        display: none;
-    }
-    /*Create vertical spacing*/
+
+/* Baseline for our menu */
+.navigation {
+  line-height: 1; /* 1 */
+  .menu {
+    a,
     li {
-        margin-bottom: 1px;
+      display: block; /* 2 */
     }
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
+
+    a {
+      text-decoration: none; /* 3 */
+      color: currentColor; /* 4 */
+      padding: 1em; /* 5 */
     }
-    /*Display 'show menu' link*/
-    .show-menu {
-        display:block;
+
+    li {
+      border-style: solid; /* 6 */
+      border-width: 0 0 1px;
     }
+  }
 }
+
+/* Easy theming */
+
+$menu-color: rgba(white, .75);
+$menu-bg: #222;
+$menu-item-hover-color: rgba(white, .9);
+$menu-item-hover-bg: black;
+$menu-item-border-color: lighten($menu-bg, 3%);
+
+.navigation {
+  background-color: $menu-bg;
+  color: $menu-color;
+  .menu {
+    li {
+      border-color: $menu-item-border-color;
+      &:hover,
+      &:focus,
+      &:active {
+        > a {
+          color: $menu-item-hover-color;
+          background-color: $menu-item-hover-bg;
+        }
+      }
+    }
+  }
+}
+
+/* Screen breakpoints
+ *
+ * Some quick settings to make the menu respond appropriately 
+ * to different screen sizes.
+ */

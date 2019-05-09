@@ -3,81 +3,67 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
 <style>
-  hr{
-      border-top: 1px solid #ccc;
-      margin-left:2%;
-  }
-p{
-      text-align:justify;
-      margin-left:2%;
-}
-h2{
-    margin-left:2%
-}
-.pcenter{
-      text-align:center;
-}
-* {
-  box-sizing: border-box;
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* Create two equal columns that floats next to each other */
-.column1 {
-  float: left;
-  width: 55%;
-  padding: 5px;
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.column2 {
-  float: left;
-  width: 45%;
-  padding: 5px;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ul.topnav li a.active {background-color:#1E90FF ;}
+
+ul.topnav li.right {float: right;}
+
 @media screen and (max-width: 600px) {
-    .column1{
-    width: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-    .column2{
-    width: 100%;
-  }
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
 </style>
 </head>
+
 <body>
 
-<h1 style="margin:10px;">Welcome</h1>
+<ul class="topnav">
+<li><a class="active" href="#home"><b>^</b></a></li>
+  <li><a href="#theory">Theory</a></li>
+  <li><a href="#advanced">Advanced</a></li>
+  <li><a href="#practice">Practice</a></li>
+  <li><a href="#extra">Extra</a></li>
+  <li class="right"><a href="#tips">Tips</a></li>
+</ul>
+
 <div class="row">
-  <div class="column1"> 
+  <div class="column1">
+    <h2 >Geomancy & Feng Shui</h2>
 <p>
 This site explains Taoist Classical Feng Shui in (hopefully) clear, concise, jargon free English. 
 It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
 <br><br>
-Please use it as a resource to discover and implement change.
+<i>Please use it as a resource to discover and implement change.</i>
   </p>
-    <p>
-It is best to read the sections in sequence:
-<b>Qi</b> = The energies involved.
-<br><br>
-<b>Yin & Yang</b> = Duality of the physical.
-<br><br>
-<b>5 Elements</b> = The main types of energy, their origin and qualities.
-<br><br>
-<b>8 Directions</b> = Energy types by direction, qualities and portents of spaces.
-<br><br>
-The sub-sections give additional information.
-    </p>
-    <h2>Introduction</h2>
+  </div>
+  </div>
+  <br><br>
+<div class="row">
+  <div class="column1">
+    <h3>Introduction</h3>
 <p>
   Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
 <br><br>
@@ -86,8 +72,8 @@ Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Eg
 Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
 <br><br>
   </p>
-  </div>
-  <div class="column2">
+</div
+  <div class="column1">
     <p class="pcenter">
   <img src="imgs/world.jpg">
     </p>
@@ -97,7 +83,7 @@ Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most compreh
   <hr>
 
 <div class="row">
-  <div class="column1"> 
+  <div class="column"> 
     <h2>Feng Shui - general</h2>
     <p>
 The Taoists explained energetic interactions with a system derived from their knowledge of creation. The theory underlying Feng Shui is the same for all Taoist practices including the Martial arts (Tai Qi Chuan, Qi Gong, etc.), Medicine (Acupuncture, Herbal remedies etc.) and Internal Alchemy.
@@ -107,7 +93,7 @@ The concept of Qi (energy) its creation, varied qualities and interactions is ke
 There are a number of different Schools (approaches) of Feng Shui (Form School, Compass School, Black Sect School, Flying Star School & Classical School). The Classical School is an amalgam of traditional theories and this is explained here.
     </p>
   </div>
-  <div class="column2">
+  <div class="column">
     <p class="pcenter">
   <img src="imgs/bagua1_small.jpg">
     </p>
@@ -115,7 +101,7 @@ There are a number of different Schools (approaches) of Feng Shui (Form School, 
 </div>
 <hr>
 <div class="row">
-  <div class="column1"> 
+  <div class="column"> 
     <h2>Feng Shui - definition</h2>
     <p>
 Feng is Qi (energy) that flows above the ground and occupies every space there is, it flows as wind, and is fast moving. It's characteristics are dependent upon the direction in which it flows and the environment it occupies. It can be partially described as electromagnetically charged particles in the atmosphere.
@@ -125,7 +111,7 @@ Shui is Qi (energy) that is contained within the earth and is inherent in the st
 The practice of Feng Shui aims to balance these energies to benefit the occupant/s. It is a system of assessing the quality of energies at play and calculating how they interact. 
     </p>
   </div>
-  <div class="column2">
+  <div class="column">
     <p class="pcenter">
       <br><br>
   <img src="imgs/red_blue.jpg">
@@ -134,7 +120,7 @@ The practice of Feng Shui aims to balance these energies to benefit the occupant
 
 <div class="row">
   
-  <div class="column1"> 
+  <div class="column"> 
     <h2>Application</h2>
     <p>
 A magnetic compass (Lo Pan) is used to determine site/space orientation, the relevant energies at play and how they interact. Qi (energy) has different characteristics Dependant upon direction.
@@ -143,7 +129,7 @@ A magnetic compass (Lo Pan) is used to determine site/space orientation, the rel
 Assessment is based on orientation, a personal reading  and other general observations which are outlined below. 
     </p>
   </div>
-  <div class="column2">
+  <div class="column">
     <p class="pcenter">
   <img src="imgs/compass.jpg">
     </p>
@@ -160,7 +146,7 @@ An assessment of the site begins outside and works inwards.
 Consider the macro (large) environment first and work your way down to the micro (small).
     </p>
   </div>
-  <div class="column2">
+  <div class="column1">
     <p class="pcenter">
   <img src="imgs/bagua1.jpg">
     </p>
@@ -250,7 +236,7 @@ Changing locations and orientation of doors / windows to affect the main energy 
 <hr>
 
 <div class="row">
-  <div class="column1"> 
+  <div class="column"> 
     <h2>Mythology</h2>
     <p>
 All ancient traditions use metaphors and myth in explanation.
@@ -270,7 +256,7 @@ The Green Dragon is the source of rain,  water is his life blood and he breathes
 This interaction relates to what is known as <b>'The Eastern Life'</b> or the directions and elements on the Eastern Generative Cycle (water, wood, small wood and fire - N,E,SE,S). <b>The 'Western Life'</b> directions are NE,SW,W & NW and this is symbolised by the White Tiger. You may have heard of the Dragon and Tiger (left and right) side of a building and Dragon and Tiger shaped hill formations. 
     </p>
   </div>
-  <div class="column2">
+  <div class="column">
     <p class="pcenter">
   <img src="imgs/dragon.jpg">
     </p>
@@ -288,7 +274,7 @@ What we experience externally reflects our internal universe. Hence our environm
       <br><br>
     </p>
   </div>
-  <div class="column2">
+  <div class="column">
     <p class="pcenter">
     </p>
   </div>
