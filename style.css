@@ -1,6 +1,9 @@
 /*Strip the ul of padding and list styling*/
 body{
     margin:0;
+    font-size: 1em;
+    line-height: 170%;
+    text-align: justify;
 }
   hr{
       border-top: 1px solid #ccc;
@@ -13,7 +16,6 @@ body{
 }
   h1,h2,h3,h4 {
     color:#473C8B  
-    margin-left:2%
 }
   .pcenter{
       text-align:center;
@@ -30,13 +32,12 @@ body{
 .column1 {
   float: left;
   width: 50%;
-  margin:3%;
 }
 
 .column {
   float: left;
   width: 100%;
-  margin:3%;
+  margin:2%;
 }
 /* Clear floats after the columns */
 .row:after {

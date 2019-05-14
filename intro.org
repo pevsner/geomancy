@@ -1,19 +1,11 @@
 
 * Welcome
 
-This site explains Taoist Classical Feng Shui in (hopefully) clear, concise, jargon free English. 
+This site explains Taoist Classical Feng Shui.
 It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
 
 Please use it as a resource to discover and implement change.
-
-It is best to read the sections in sequence:
-Qi = The energies involved.
-Yin & Yang = Duality of the physical.
-5 Elements = The main types of energy, their origin and qualities.
-8 Directions = Energy types by direction, qualities and portents of spaces.
-
-The sub-sections give additional information.
-
+/*[ I try my best to use simple succinct language ].*/
 * Introduction
 
 Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
@@ -21,7 +13,12 @@ Geomancy is the reading of energetic interactions on earth and how they affect u
 Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have their own systems of explanation.
 
 Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
-
+It is a very logical and methodical system once the fundementals are grasped.
+There's no magic/faith involved.
+ 
+Don't fictionalise your experience or try to imagine something is present when it's not because you want it to be so.
+If you can't feel the energies, you are not feeling the energies. Either, give up, leave it for a bit and come back, or just work at
+it more. The mind directs and the energy will follow. 
 * Feng Shui (general)
 
 The Taoists explained energetic interactions with a system derived from their knowledge of creation. The theory underlying Feng Shui is the same for all Taoist practices including the Martial arts (Tai Qi Chuan, Qi Gong, etc.), Medicine (Acupuncture, Herbal remedies etc.) and Internal Alchemy.
@@ -32,20 +29,21 @@ There are a number of different Schools (approaches) of Feng Shui (Form School, 
 
 * Feng Shui (definition)
 
-Feng is Qi (energy) that flows above the ground and occupies every space there is, it flows as wind, and is fast moving. It's characteristics are dependent upon the direction in which it flows and the environment it occupies. It can be partially described as electromagnetically charged particles in the atmosphere.
+Feng (wind) is energy (qi) that flows above the ground and occupies every space there is, it flows as wind, and is fast moving. It's characteristics are dependent upon the direction in which it flows and the environment it occupies. It can be partially described as electromagnetically charged particles in the atmosphere. It is experienced as a warm energy.
 
-Shui is Qi (energy) that is contained within the earth and is inherent in the structure of a building (all mass), it is slow moving. Shui can be experienced as a cool blue energy, hence being called water, it is essentially gravitational force.
+Shui (water) is energy (qi) that is contained within the earth and is also inherent in the structure of a building (all mass), it is slow moving. 
+It is experienced as a cool blue energy, hence being called water, it is essentially gravitational force.
 
 The practice of Feng Shui aims to balance these energies to benefit the occupant/s. It is a system of assessing the quality of energies at play and calculating how they interact. 
 
-* Feng Shui (aplication)
+* Aplication
 
 A magnetic compass (Lo Pan) is used to determine site/space orientation, the relevant energies at play and how they interact. Qi (energy) has different characteristics Dependant upon direction.
 ( please refer to the 8 Directions section of this site for details).
 
 Assessment is based on orientation, a personal reading  and other general observations which are outlined below. 
 
-* Feng Shui (assessment)
+* Assessment
 
 An assessment of the site begins outside and works inwards. 
 Consider the macro (large) environment first and work your way down to the micro (small).
@@ -77,4 +75,4 @@ The Green Dragon is a great mythological figure in traditional Chinese culture  
 * Footnote
 
 Everything is connected, the planets, the elements and all the living things.
-What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. 
+What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realise our potential. 

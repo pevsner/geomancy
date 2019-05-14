@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-12 Sun 14:07 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org54ddf35">1. The 8 Directions</a></li>
+<li><a href="#orgd2061f9">2. The Baguas</a></li>
+<li><a href="#org3e2656b">3. Lo Shu ( Magic Square )</a></li>
+<li><a href="#orga6669c9">4. Readings</a></li>
+<li><a href="#orgdc80411">5. Earthly Bagua ( fixed - relating to spaces)</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org5798864">5.0.1. table of spaces insert</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgefa32ce">6. Heavenly Bagua (moveable - portents for the "fixed")</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org000b3cb">6.0.1. eg</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org367b0fd">7. Flows of energy (qi)</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org54ddf35" class="outline-2">
+<h2 id="org54ddf35"><span class="section-number-2">1</span> The 8 Directions</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+The Chinese discovered that Qi (energy) had differing characteristics depending upon the direction of movement. They derived a system of reading these energetic interactions using the main Elements.
+</p>
+
+<p>
+A magnetic compass (Lo Pan) is used to obtain information on orientation and qualities of energy.  It is a normal magnetic compass with additional markings to indicate the 8 directions, former and later heavenly sequences, further elemental subdivisions, portents of spaces, water dragon information and more.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd2061f9" class="outline-2">
+<h2 id="orgd2061f9"><span class="section-number-2">2</span> The Baguas</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Bagua  is the Chinese for 8 directions.
+</p>
+
+<p>
+The 8 main directions (energy types) are illustrated opposite.
+These eight directions refer to the quality of energy coming from these generalised directions.
+</p>
+
+<p>
+The 8 directions each have characteristics of the 5 elements. Some directions whilst being of the same element actually had distinguishing characteristics. Hence SW and NE whilst both being of the earth element differed markedly in quality. So to with W &amp; NW (metal) and E &amp; SE (wood). Such directions were named BIG and SMALL accordingly.
+</p>
+
+<p>
+NB.The eight main directions are the most commonly used, however there are further subdivisions (down to 2 degrees) which can give a more detailed divination - for specific work (desk) and furniture positioning and the calculation of the "Water Dragon" (orientation of external water flows in relation to a building).
+</p>
+
+<p>
+Heavenly Bagua. The inner Trigrams relate to the "Former Heavenly Sequence". A system derived to explain the energy of free flowing Feng.
+</p>
+
+<p>
+Earthly Bagua. The outer Trigrams relate to the "Later Heavenly Sequence". A system derived to explain the exchange of energy within a building/space. Essentially the earth energy (Shui) component  inherent in the structure or gravitational effect .
+</p>
+
+<p>
+The Heavenly Bagua is moveable and the Earthly Bagua is fixed. Correctly combining and reading these two Bagua's gives the portent of a particular space.
+</p>
+
+<p>
+NB. The Chinese always show fire (south) at the top because it relates to the heavens(S, fire, yang) above and the earth(N, water, yin) below.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3e2656b" class="outline-2">
+<h2 id="org3e2656b"><span class="section-number-2">3</span> Lo Shu ( Magic Square )</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Lo Shu is a numeric magic square which said to have been found as markings the back of a Turtle.
+It ties in the 8 directions and seasonal changes and relates to personal horoscope numbers. (see horoscope section to calculate your own personal number).
+</p>
+
+<p>
+Odd and even numbers alternate in the periphery of the square, the four corners are even numbers, and the 5 odd numbers form a cross in the centre. Each line (vertical, horizontal and diagonal) add up to 15, which is the number of days in each of the 24 cycles of the Chinese solar year.
+</p>
+
+<p>
+I have indicated how the seasons tie in as well as how the amount of Yin and Yang varies. Maximum Yin during winter, increasing Yang and decreasing Yin to mid summer and vice versa.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga6669c9" class="outline-2">
+<h2 id="orga6669c9"><span class="section-number-2">4</span> Readings</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+To establish the overall characteristic of Qi ( energy ) within a building or space, take a magnetic compass reading at the main door opening (from the door facing outwards from the room, it is the flow of energy into the room that we are interested in).
+</p>
+
+<p>
+Whilst each space contains all of the five element energies - the entry point (door position) is key to determining what element has the most influence.
+</p>
+
+<p>
+E.g.. Qi flowing into a room facing south has the general characteristic of the fire element. 
+The two Bagua's (Earthly and Heavenly) give insight into the properties and interactions of energy by direction. 
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgdc80411" class="outline-2">
+<h2 id="orgdc80411"><span class="section-number-2">5</span> Earthly Bagua ( fixed - relating to spaces)</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+These spaces refer to the general characteristic of an internal space. Relating to the true actual magnetic orientation of spaces within a room.
+</p>
+
+<p>
+The energetic characteristics can be summarised simply, as shown below.
+</p>
+</div>
+
+<div id="outline-container-org5798864" class="outline-4">
+<h4 id="org5798864"><span class="section-number-4">5.0.1</span> table of spaces insert</h4>
+<div class="outline-text-4" id="text-5-0-1">
+<p>
+SPACE quality of Space action/ placement
+1= knowledgehigher good, information that you need to advancebooks, reference, spiritual icons, shrine
+2= familyimmediate family, close friends, employees. sense of fellowshipfamily photos associated items
+3= wealth and healthvalue, worth, personal perception of wealth,quality of life.picture of yourself in radiant health.money, related financial items (cheque book, statements etc)
+4= famehow you appear to the outside world,others perception of yourelated financial items (cheque book, statements etc)
+5= marriage, businessclose relationships, all forms of partnership, unionpairs of items, picture of you and your partner together
+6= children, projectsnew ideas / projects, conception,design, early growthPhotos of children, intention of new project (what you what to do in the future) &amp; current projects
+7= helpful friendsnew ideas / projects, conception,design, early growthCommunication systems,  telephone, fax, computer, Picture or list of influential people.
+8= careerlife's purpose, cauldron of talents, fusion and integration
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgefa32ce" class="outline-2">
+<h2 id="orgefa32ce"><span class="section-number-2">6</span> Heavenly Bagua (moveable - portents for the "fixed")</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+These portents tell us the interactions of free flowing energy (Qi) with the stable state of the above Earthly Bagua.
+</p>
+
+<p>
+SPACEi QUALITY PORTENT
+a = life / gatewaystable balanced+
+b = longevityextends the life of+ +
+c = creates qicreates energy+ + +
+d = problems - sharcreates problems - hindrances- -
+e = deathdisconnects energy - death- - -
+f = five ghosts (ancestral )inheritance+
+g = good fortunegood luck+ +
+h = bad influencesmalign effect_ _
+</p>
+</div>
+
+<div id="outline-container-org000b3cb" class="outline-4">
+<h4 id="org000b3cb"><span class="section-number-4">6.0.1</span> eg</h4>
+<div class="outline-text-4" id="text-6-0-1">
+<p>
+E.g.. A south facing house (door to south) has predominantly Fire Qi (energy) entering it, so the interaction to an eastward wall space ( middle of East side) would give us an exchange of wood (east) with fire (south) - wood feeds fire - hence the portent would be very beneficial (as you can see above and in the diagram, a portent "C" or creates Qi). The energetic activity in that space is very generative. This example is one of the most simple examples, the others are more complex.
+A full reading is made by overlaying the former and later heavenly sequences. Combining the two trigrams (3 lines) gives a hexagram (6 lines) which describes the energetic properties of a space.
+</p>
+
+<p>
+8 X 8 = 64 hexagrams which relate to the 64 hexagrams of the "I Ching". 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org367b0fd" class="outline-2">
+<h2 id="org367b0fd"><span class="section-number-2">7</span> Flows of energy (qi)</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Flows of Qi and the eddying corner effect explain how the 8 directions are applicable to a 4 sided room.
+</p>
+
+<p>
+Every space contains all the elements, we can however determine which element/s have the greatest influence and determine the overall characteristic.
+</p>
+
+<p>
+swirls
+</p>
+
+<p>
+Door position also tells us whether the Qi is more or less active.
+</p>
+
+<p>
+Yang room = left sided doorway, Qi spirals clockwise. Most active, best for working activities
+</p>
+
+<p>
+Yin room = right sided opening, Qi spirals anti-clockwise. Least active, best for calming ( bedrooms, relaxation etc)
+</p>
+
+<p>
+Lung room  = central opening, Qi spirals both ways, yin quality to the right side of the room (calming), yang to the left (active)
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2019-05-12 Sun 14:07</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

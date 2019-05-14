@@ -3,7 +3,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet"/>
 <style>
+  body {margin: 0;}
   hr{
       border-top: 1px solid #ccc;
       margin-left:2%;
@@ -12,7 +14,7 @@ p{
       text-align:justify;
       margin-left:2%;
 }
-h2{
+h1,h2,h3,h4{
     margin-left:2%
 }
 .pcenter{
@@ -52,78 +54,113 @@ h2{
     width: 100%;
   }
 }
+/* NAVIGATION */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
 </style>
 </head>
 <body>
 
-<h1 style="margin:10px;">Welcome</h1>
+<ul class="topnav">
+  <li><a class="active" href="#Intro">Intro</a></li>
+  <li><a href="#theory">Theory</a></li>
+  <li><a href="#practice">Practice</a></li>
+  <li><a href="#advanced">Advanced</a></li>
+  <li class="right"><a href="#info">Info</a></li>
+</ul>
+
+
 <div class="row">
-  <div class="column1"> 
-<p>
-This site explains Taoist Classical Feng Shui in (hopefully) clear, concise, jargon free English. 
-It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
-<br><br>
-Please use it as a resource to discover and implement change.
-  </p>
-    <p>
-It is best to read the sections in sequence:
-<b>Qi</b> = The energies involved.
-<br><br>
-<b>Yin & Yang</b> = Duality of the physical.
-<br><br>
-<b>5 Elements</b> = The main types of energy, their origin and qualities.
-<br><br>
-<b>8 Directions</b> = Energy types by direction, qualities and portents of spaces.
-<br><br>
-The sub-sections give additional information.
+
+  <h2>Geomancy and Feng Shui</h2>
+  <div class="column1">
+    <p>Geomancy is the reading of Earth energies and how they affect us.</p>
+    <p><b>Geo</b>= Earth, <b>mancy</b>= divination/reading.</p>
+    <p>Ancient cultures have their own systems.
+      <br/><i>(Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc)</i>
     </p>
-    <h2>Introduction</h2>
-<p>
-  Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
-<br><br>
-Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have their own systems of explanation.
-<br><br>
-Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
-<br><br>
-  </p>
+    <p>Chinese <b>Taoism</b> provides the most comprehensive and well documented explanation of energy
+    exchanges and advise on design.</p>
+    <p><b>Feng Shui</b> specifically relates to assessing living and working environments.</p>
+    <p>On this site I explain the basic theory and practical implimentation.</p>
   </div>
-  <div class="column2">
-    <p class="pcenter">
-  <img src="imgs/world.jpg">
-    </p>
+
+  <div class="column2 pcenter">
+    <img alt="" src="imgs/woman_forces1.jpg"/>
   </div>
+    
 </div>
-
-  <hr>
+  
 
 <div class="row">
-  <div class="column1"> 
+  <hr/>
     <h2>Feng Shui - general</h2>
-    <p>
-The Taoists explained energetic interactions with a system derived from their knowledge of creation. The theory underlying Feng Shui is the same for all Taoist practices including the Martial arts (Tai Qi Chuan, Qi Gong, etc.), Medicine (Acupuncture, Herbal remedies etc.) and Internal Alchemy.
-
-The concept of Qi (energy) its creation, varied qualities and interactions is key.
-
-There are a number of different Schools (approaches) of Feng Shui (Form School, Compass School, Black Sect School, Flying Star School & Classical School). The Classical School is an amalgam of traditional theories and this is explained here.
+    <div class="column1"> 
+    <p>The Taoists explained energetic interactions with a system derived from their knowledge of creation.
+      <br>
+      The theory underlying Feng Shui is the same for all Taoist practices including the Martial arts
+      (<b>Tai Qi Chuan, Qi Gong,</b> etc.), Medicine (<b>Acupuncture</b>, Herbal remedies etc.) and <b>Internal Alchemy</b>.
+      <br>
+      The concept of Qi (energy), its creation, varied qualities and interactions is key.
+      <br><br>
+      There are a number of different Schools of Feng Shui. The Classical School is an amalgam of traditional theories and this is explained here.
+      <br>
+      <br>
+      NB.<i><b>Modern</b> day "feng Shui" has been influenced by "new age" beliefs and the inclusion of "shamanic" and other geomancy systems.</i>
     </p>
-  </div>
-  <div class="column2">
-    <p class="pcenter">
-  <img src="imgs/bagua1_small.jpg">
-    </p>
-  </div>
+    </div>
+
+    <div class="column2 pcenter">
+      <br>
+      <img src="imgs/bagua1_small.jpg">
+      </p>
+    </div>
+
 </div>
-<hr>
+
 <div class="row">
+  <hr/>
   <div class="column1"> 
     <h2>Feng Shui - definition</h2>
+    <p>( wind and water )</p>
     <p>
-Feng is Qi (energy) that flows above the ground and occupies every space there is, it flows as wind, and is fast moving. It's characteristics are dependent upon the direction in which it flows and the environment it occupies. It can be partially described as electromagnetically charged particles in the atmosphere.
-
-Shui is Qi (energy) that is contained within the earth and is inherent in the structure of a building (all mass), it is slow moving. Shui can be experienced as a cool blue energy, hence being called water, it is essentially gravitational force.
-
+<b>Feng</b> (wind) is Qi (energy) that flows <b>above</b> the ground ( as wind ) and occupies every space there is, it <b>flows as wind</b>, and is fast moving. It's characteristics are dependent upon the direction in which it flows and the environment it occupies. It can be partially described as electromagnetically charged particles in the atmosphere.
+<br>
+<br>
+<b>Shui</b> (water) is Qi (energy) that is contained <b>within the Earth</b> ( flows as water ) and is inherent in the structure of a building (all mass), it is <b>slow moving</b>. <br>Shui can be experienced as a <b>cool blue</b> energy, hence being called water, it is essentially gravitational force.
+<br>
+<br>
 The practice of Feng Shui aims to balance these energies to benefit the occupant/s. It is a system of assessing the quality of energies at play and calculating how they interact. 
     </p>
+
   </div>
   <div class="column2">
     <p class="pcenter">
@@ -131,14 +168,16 @@ The practice of Feng Shui aims to balance these energies to benefit the occupant
   <img src="imgs/red_blue.jpg">
     </p>
   </div>
+  </div>
 
 <div class="row">
-  
+  <hr/>
   <div class="column1"> 
     <h2>Application</h2>
     <p>
-A magnetic compass (Lo Pan) is used to determine site/space orientation, the relevant energies at play and how they interact. Qi (energy) has different characteristics Dependant upon direction.
-( please refer to the 8 Directions section of this site for details).
+A <b>magnetic compass</b> (Lo Pan) is used to determine site/space <b>orientation</b>, the relevant energies at play and how they interact. Qi (energy) has different characteristics Dependant upon direction.
+<br>
+<br>
 
 Assessment is based on orientation, a personal reading  and other general observations which are outlined below. 
     </p>
@@ -150,9 +189,8 @@ Assessment is based on orientation, a personal reading  and other general observ
   </div>
 </div>
 
-<hr>
-
 <div class="row">
+  <hr/>
   <div class="column1"> 
     <h2>Assessment</h2>
     <p>
@@ -169,8 +207,8 @@ Consider the macro (large) environment first and work your way down to the micro
 
 </div>
 
-<hr>
 <div class="row">
+<hr>
   <div class="column1"> 
     <h2>Key Aims</h2>
     <p>
@@ -189,6 +227,7 @@ Changing locations and orientation of doors / windows to affect the main energy 
 <br><br>
     </p>
   </div>
+
   <div class="column">
     <p class="pcenter">
       <table style="width:100%;margin-left:10px;">
