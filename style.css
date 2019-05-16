@@ -17,7 +17,12 @@ body{
     color:#473C8B  
 }
   table{
-    color:#473C8B  
+      color:#473C8B
+      text-size:0.9em;
+      text-align:left;
+  }
+  th{
+      padding-left:20px ;
   }
   .pcenter{
       text-align:center;
@@ -26,10 +31,6 @@ body{
   box-sizing: border-box;
 }
 
-  table{
-      margin:2%;
-  }
-  
 /* Create two equal columns that floats next to each other */
 .column1 {
   float: left;
