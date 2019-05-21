@@ -13,16 +13,20 @@ body{
       font-size:1em;
       text-align:justify;
 }
-  h1,h2,h3,h4 {
+  h1,h2,h3,h4,h5 {
     color:#473C8B  
+	      margin: 2%;
 }
   table{
       color:#473C8B
-      text-size:0.9em;
+      font-size:0.9em;
       text-align:left;
   }
   th{
       padding-left:20px ;
+  }
+  ul{
+      color:#473C8B;
   }
   .pcenter{
       text-align:center;

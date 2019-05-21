@@ -3,17 +3,52 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet"/>
 <style>
+  .body{
+      margin: 0;
+  }
+      
+/* Navigation start */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;23
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* navigation end */  
   hr{
       border-top: 1px solid #ccc;
       margin-left:2%;
   }
 p{
       text-align:justify;
-      margin-left:2%;
+      margin:2%;
 }
-h2{
-    margin-left:2%
+h1,h2,h3,h4,h5{
+    margin:2%
 }
 .pcenter{
       text-align:center;
@@ -25,13 +60,13 @@ h2{
 /* Create two equal columns that floats next to each other */
 .column1 {
   float: left;
-  width: 50%;
+  width: 55%;
   padding: 5px;
 }
 
 .column2 {
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 5px;
 }
 /* Clear floats after the columns */
@@ -52,13 +87,22 @@ h2{
     width: 100%;
   }
 }
+
 </style>
 </head>
 <body>
 
-<h1 style="margin:10px;">Siting a Building</h1>
-<hr>
+<!-- navigation -->
+<ul>
+  <li><a href="#intro"><b>^</b></a></li>
+  <li><a class="active" href="#5ele">Theory</a></li>
+  <li><a href="#site">Siting</a></li>
+  <li><a href="#adv">Advanced</a></li>
+  <li><a href="#tips">Tips</a></li>
+</ul>
+<!-- navigation end -->
 <div class="row">
+<h1>Siting a Building</h1>
   <div class="column1"> 
     <h2>Environmental Forms</h2>
     <p>

@@ -1,42 +1,134 @@
-<!doctype html>
+<!doctype>
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <link href="style.css" rel="stylesheet"/>
     <title>Reading List</title>
-    <style>
-      h1,h2,h3,h4{
-	  margin: 2%;
-      }
+
+<style>
+  .body{
+      margin: 0;
+  }
       
-      p {
-	  margin:2% ;
-      }
-    </style>
+/* Navigation start */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;23
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* navigation end */  
+  hr{
+      border-top: 1px solid #ccc;
+      margin-left:2%;
+  }
+p{
+      text-align:justify;
+      margin:2%;
+}
+h1,h2,h3,h4,h5{
+    margin:2%
+}
+.pcenter{
+      text-align:center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 55%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+    .column2{
+    width: 100%;
+  }
+}
+
+</style>
   </head>
   <body>
+<!-- navigation -->
+<ul>
+  <li><a href="#intro"><b>^</b></a></li>
+  <li><a class="active" href="#5ele">Theory</a></li>
+  <li><a href="#site">Siting</a></li>
+  <li><a href="#adv">Advanced</a></li>
+  <li><a href="#tips">Tips</a></li>
+</ul>
+<!-- navigation end -->
+<div class="row">
     <h1>Reading List</h1>
+    <div class="column1">
     <p>
-
-Beware! books are dangerous.
+Beware! Information (books) are dangerous.
+<br/>
+<i>( never accept anything before thinking it through, and even then continually question ).</i>
 <br/>
 <br/>
-<b>TAO TE CHING,</b> Lao Tsu (shambhala)
+The two main texts of Lao Tzu really contain the basic information.
 <br/>
-<b>HUA HUA CHING</b>, Lao Tzu (shambhala)
-<i> ( there are other translations available, obviously there is
-always interprutation )</i>
+<b>TAO TE CHING,</b> Lao Tsu (Shambhala)
+<br/>
+<b>HUA HUA CHING</b> Lao Tzu (Shambhala)
+<br/>
+<i> ( there are other translations available, which vary, obviously there is always interpretation. Ideally it is worth reading a few and trying to determine, what you believe the gist is. However the Shambhala ones seem the best to me. )</i>
 
 <br/>
 <br/>
 <i>
 Feng Shui specific books, I find it difficult to recommend any, there
-is common ground across the more traditional ones. The "new age", "shamanic" fusion ones seem to thrive on "balony", intention, affermations, symbology with a splash of "hocus pocus". This might on a trivial level have some kind of placebo effect, but is unsustainable for any groth. As with all challenges, ones the illusion is dissapated, it becomes familiar and you can move on without believing it's magic. 
+is common ground across the more traditional ones. The "new age", "shamanic" fusion ones seem to thrive on "balony", intention, affermations, symbology with a splash of "hocus pocus". This might on a trivial level have some kind of placebo effect, but is unsustainable for any growth. As with all challenges, ones the illusion is dissipated, it becomes familiar and you can move on without believing it's magic. There has been a tendancy to present "Feng Shui" as "coffee table" design chic. As with most things, it's best to avoid the "froth and glitter" and seek out the substance. Taken on a trivial "design aid" level, it may have some positive benifits. But...I comment too much*******(simplify) 
 </i>
-<br/>
-<br/>
+    </p>
+</div>
+<div class="column2">
+<p>
 <i>Here are a few in the past I had listed, not sure any more.</i>
-
 <br/>
 <br/>
 THE ELEMENTS OF FENG SHUI, Joanne O'Brien with Kwok Man Ho (Element)
@@ -50,6 +142,7 @@ FUSION OF THE FIVE ELEMENTS, Mantak and Maneewan Chia ( Healing Tao Books)
 NATURE AS TEACHER, Victor Schauberger (Gateway Books)
 <br/>
 THE FENG SHUI HANDBOOK, Derek Walters (Thorsons) 
+<br/>
 EARTH ASCENDING, Jose Arguelles ( Bear and Co.)
 <br/>
 CHUANG TZU, writings (Columbia University Press)
@@ -61,10 +154,8 @@ IN SEARCH OF THE MIRACULOUS, Osho (Element)
 NO WATER NO MOON, Osho (Element)
 <br/>
 BETWEEN HEAVEN AND EARTH, Harriet Beinfield (Ballentine)
-<br/>
-    <br/>
-    <br/>
 </p>
-
+</div>
+</div>
   </body>
 </html>
