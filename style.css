@@ -3,7 +3,6 @@ body{
     margin:0;
     font-size: 1em;
     line-height: 150%;
-    text-align: justify;
 }
   hr{
       border-top: 1px solid #ccc;
@@ -20,27 +19,28 @@ body{
     text-align:justify;
     line-height: 150%;
 }
-.pcenter{
+  .pcenter{
       text-align:center;
 }
   h1,h2,h3,h4,h5 {
     color:#473C8B
     margin: 1%;
 }
+  i{
+      font-size:0.8em;
+  }
   table{
       color:#473C8B
       font-size:0.9em;
       text-align:left;
   }
   th{
+      color:#473C8B
       padding-left:20px ;
   }
   ul{
       color:#473C8B;
   }
-  .pcenter{
-      text-align:center;
-}
   * {
   box-sizing: border-box;
 }
