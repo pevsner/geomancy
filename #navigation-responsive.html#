@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#theory">Theory</a></li>
+  <li><a href="#advanced">Advanced</a></li>
+  <li><a href="#practice">Practice</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+
+<div style="padding:0 2%;">
+  <h1>Feng Shui & Geomancy</h1>
+  <h2>Introduction</h2>
+  <p>
+This site explains Taoist Classical Geomancy or Feng Shui.
+It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
+<br/>
+<br/>
+Please use it as a resource to discover and implement change.
+<br/>
+<br/>
+This site explains Taoist Classical Geomancy or Feng Shui.
+It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
+</i>
+Please use it as a resource to discover and implement change.
+</p>
+<p>
+  /* Nb. Terms hence refered to:
+       Qi   = General Energy
+       Feng = Wind  : energy in the atmosphere, particles.
+       Shui = Water : energy in ground, mass, gravity affected.
+ */
+  <br/>
+  <br/>
+Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
+  <br/>
+  <br/>
+
+Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have their own systems of explanation.
+  <br/>
+  <br/>
+
+Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
+It is a very logical and methodical system once the fundementals are grasped.
+There's no magic/faith involved.
+  <br/>
+  <br/>
+ 
+Don't fictionalise your experience or try to imagine something is present when it's not because you want it to be so.
+If you can't feel the energies, you are not feeling the energies. Either, give up, leave it for a bit and come back, or just work at
+it more. The mind directs and the energy will follow. 
+Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
+  <br/>
+  <br/>
+
+Most ancient cultures had systems, some more sophisticated than others, and a few make some sense today.
+/*Aboriginal, African, Indian, Mayan, Egyptian, Norse, Native N. American and the Chinese, etc. */
+
+  <br/>
+  <br/>
+The Chinese type, Feng Shui, is the most comprehensive and well documented.
+
+  <br/>
+  <br/>
+/* FOOTNOTE
+Everything is connected, the planets, the elements and all the living things. What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
+</p>
+</div>
+
+</body>
+</html>
