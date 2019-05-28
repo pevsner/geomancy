@@ -1,33 +1,26 @@
 /*Strip the ul of padding and list styling*/
 body{
     margin:0;
-    font-size: 1em;
-    line-height: 150%;
 }
   hr{
       border-top: 1px solid #ccc;
-      margin-left:2%;
-  }
-  hr{
-      border-top: 1px solid #ccc;
-      margin: 2%;
   }
   p{
-      margin:2%;
     color:navy;
     font-size:1em;
     text-align:justify;
-    line-height: 150%;
+    line-height: 1.3em;
 }
   .pcenter{
       text-align:center;
 }
   h1,h2,h3,h4,h5 {
     color:#473C8B
-    margin: 1%;
 }
-  i{
-      font-size:0.8em;
+  p.nb{
+      color:#b4b4b4
+	font-size:0.8em;
+    line-height:1.1em;
   }
   table{
       color:#473C8B
@@ -54,7 +47,6 @@ body{
 .column {
   float: left;
   width: 100%;
-  margin:2%;
 }
 /* Clear floats after the columns */
 .row:after {

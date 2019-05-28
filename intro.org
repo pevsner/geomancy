@@ -1,40 +1,65 @@
 * DONE Welcome
 
 This site explains Taoist Classical Geomancy or Feng Shui.
-It covers the basic theory, insight into more advanced metaphysics and includes  practical design suggestions. 
+It covers the theory and practical design suggestions. 
 
-Please use it as a resource to discover and implement change.
-/* I will try to explain as clearly as possible.*/
+/* Please use it as a resource to discover and implement change.
+   Also understand this is my own take on the subject*/
 ** Introduction
-/* Nb. Terms hence refered to:
-       Qi   = General Energy
-       Feng = Wind  : energy in the atmosphere, particles.
-       Shui = Water : energy in ground, mass, gravity affected.
- */
-Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
+Geomancy is the reading of the Earth (and planets) and how we are affected.
+geo=earth, mancy=divination or reading.
 
 Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have their own systems of explanation.
 
 Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
-It is a very logical and methodical system once the fundementals are grasped.
+It is a very logical system, once the fundementals are grasped.
 There's no magic/faith involved.
  
 Don't fictionalise your experience or try to imagine something is present when it's not because you want it to be so.
 If you can't feel the energies, you are not feeling the energies. Either, give up, leave it for a bit and come back, or just work at
 it more. The mind directs and the energy will follow. 
-Geomancy is the reading of energetic interactions on earth and how they affect us. (geo=earth, mancy=divination or reading).
 
-Most ancient cultures had systems, some more sophisticated than others, and a few make some sense today.
-/*Aboriginal, African, Indian, Mayan, Egyptian, Norse, Native N. American and the Chinese, etc. */
+/* Nb. Terms hence refered to:
+       Qi   = General Energy
+       Feng = Wind  : energy in the atmosphere, particles.
+       Shui = Water : energy in ground, mass, gravity affected.
+ */
 
-The Chinese type, Feng Shui, is the most comprehensive and well documented.
-
-/* FOOTNOTE
-Everything is connected, the planets, the elements and all the living things. What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
+/* Everything is connected, the planets, the elements and all the living things. What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
 ** Feng Shui - General
-The Chinese "Taoists" explained energetic interactions, upon and with the environment, based on their knowledge and explanation of creation. The Philosophy is indepth and well thought through. Infact it could be regarded today as advanced particle (meta)physics.
+The Chinese "Taoists" sought to understand the affect of the environment upon humans in order to choose the best siting of building for residents. The Art of Feng Shui was developed for this purpose.
 
-The theory is the same as for all the Taoist Practices including Tai Qi Chuan, Qi Gong, Accupuncture and Internal Alchemy etc.
+Feng Shui is based on Taoist knowledge of the universe, mainly, derived from the writings of Lao Tzu (the "Tao Te Ching" and "Hua Hua Ching") and the "I Ching" (the classic "book of change"). Other ideas were also absorbed over time as the Art developed.
+The fundemental theory behind Feng Shui is the same for all the Taoist practices including Tai Qi Chuan, Qi Gong, Accupuncture and Internal Alchemy etc. It is based on the energetic interactions between humans and the environment ( from planetary movement, larger landscape, close proximity, to very small internal spaces ). Horoscopes of individuals are also calculated to assertain suitablity.
+
+
+Fundementally Feng Shui is all about balancing Qi ( energy ) so one can live in harmony with the environment.
+Qi is the, generalised, Chinese word for energy: from Heavenly ( planetary) to Earthly ( physical ), coarse to subtle.
+
+There is an Original Source energy, WuQi (unified, from which everything else comes)
+Then there is the duality of physical universe. Yin and Yang (-'ve and +'ve, male & female, light & dark)
+
+All the other sub groups of Qi are variations of above ones, and include:
+Cosmic Particle dust
+
+The energy types below are illustrated using hexigrams ( x2 trigrams ) which show the proportion of yin and yang present. 
+The 5 Elements, a grouping of five main energy types ( strong nuclear, weak nuclear, gravitational,electromagnetic, the taoist added a 5th unifying element (earth) to what todays scientist call the main forces.
+The 8 Directions, these are energy types, derived from the 5 Elements, based on direction. They are calculated by combining earthly (in the ground)  and heavenly (electomagnetic, free floating) directional energetic interactions. 
+
+Hence the name:
+FENG = water (literal translation), energy in the ground that flows like water, gravity.
+SHUI = Wind (literal translation), energy free flowing above the ground, electromagnatism.
+
+A lot of the termonolgy/symbology is used to convey the complexity simply. 
+
+
+
+
+
+
+
+ based on their knowledge and explanation of creation. The Philosophy is indepth and well thought through. Infact it could be regarded today as advanced particle (meta)physics.
+
 
 The Creation of Qi (energy), it's  various general types and qualities, and it's interactions is key.
 
