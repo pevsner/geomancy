@@ -15,27 +15,24 @@ Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most compreh
 It is a very logical system, once the fundementals are grasped.
 There's no magic/faith involved.
  
-Don't fictionalise your experience or try to imagine something is present when it's not because you want it to be so.
-If you can't feel the energies, you are not feeling the energies. Either, give up, leave it for a bit and come back, or just work at
-it more. The mind directs and the energy will follow. 
-
-/* Nb. Terms hence refered to:
-       Qi   = General Energy
-       Feng = Wind  : energy in the atmosphere, particles.
-       Shui = Water : energy in ground, mass, gravity affected.
- */
-
 /* Everything is connected, the planets, the elements and all the living things. What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
+
 ** Feng Shui - General
-The Chinese "Taoists" sought to understand the affect of the environment upon humans in order to choose the best siting of building for residents. The Art of Feng Shui was developed for this purpose.
+The Chinese "Taoists art of Feng Shui is used to determine the best siting and planning of a building for inhabitants.
+[ The design of Palaces seemed to be the primary reason for it, although it then became commonly adopted. ]
 
-Feng Shui is based on Taoist knowledge of the universe, mainly, derived from the writings of Lao Tzu (the "Tao Te Ching" and "Hua Hua Ching") and the "I Ching" (the classic "book of change"). Other ideas were also absorbed over time as the Art developed.
-The fundemental theory behind Feng Shui is the same for all the Taoist practices including Tai Qi Chuan, Qi Gong, Accupuncture and Internal Alchemy etc. It is based on the energetic interactions between humans and the environment ( from planetary movement, larger landscape, close proximity, to very small internal spaces ). Horoscopes of individuals are also calculated to assertain suitablity.
+Feng Shui theory is based on Taoist understanding of universal energy exchanges, mainly derived from the writings of Lao Tzu (the "Tao Te Ching" and "Hua Hua Ching") and the "I Ching" (the classic "book of change"). Other ideas were also absorbed over time as it developed.
+The underlying theory is the same for all Taoist practices including Tai Qi Chuan, Qi Gong, Accupuncture and Internal Alchemy. It is based on the energy exchanges between humans and the environment (from planetary movement, larger landscape, close proximity, to very small internal spaces). Horoscopes of individuals are also calculated to assertain suitablity.
+ 
+Feng Shui is about balancing Qi (energy) so residents can live in harmony with the environment.
 
+Recieve a nice flow of energy to the building from the larger landscape, not too fast to cause harm, not too slow to be stagnant.
+To be positioned in balance with the occupants.
 
-Fundementally Feng Shui is all about balancing Qi ( energy ) so one can live in harmony with the environment.
+From: recieving a good flow of energy from the larger topographical surroundings, to internal flows of energy circulating to all rooms, to the fine positioning of objects.
+
 Qi is the, generalised, Chinese word for energy: from Heavenly ( planetary) to Earthly ( physical ), coarse to subtle.
-
+*WuQi, TaiQi, Yin&Yang, 5 elemnents, 8 directions, 64 hexigrams,
 There is an Original Source energy, WuQi (unified, from which everything else comes)
 Then there is the duality of physical universe. Yin and Yang (-'ve and +'ve, male & female, light & dark)
 
@@ -51,12 +48,6 @@ FENG = water (literal translation), energy in the ground that flows like water, 
 SHUI = Wind (literal translation), energy free flowing above the ground, electromagnatism.
 
 A lot of the termonolgy/symbology is used to convey the complexity simply. 
-
-
-
-
-
-
 
  based on their knowledge and explanation of creation. The Philosophy is indepth and well thought through. Infact it could be regarded today as advanced particle (meta)physics.
 
