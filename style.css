@@ -6,6 +6,7 @@ body{
       border-top: 1px solid #ccc;
   }
   p{
+      font-family:Arial, Helvetica, sans-serif ;
     color:navy;
     font-size:1em;
     text-align:justify;
@@ -126,8 +127,3 @@ $menu-item-border-color: lighten($menu-bg, 3%);
   }
 }
 
-/* Screen breakpoints
- *
- * Some quick settings to make the menu respond appropriately 
- * to different screen sizes.
- */
