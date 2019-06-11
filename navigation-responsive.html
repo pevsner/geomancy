@@ -2,8 +2,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet"/>
 <style>
-body {margin: 0;}
+  body {margin: 0;
+	font-family: arial,helvetica;
+       }
 
 ul.topnav {
   list-style-type: none;
@@ -33,6 +36,28 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+div.margin{
+    padding: 10px;
+}
+div.row{
+    width: 100%;
+}
+div.left{
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+div.right{
+    float: right;
+    width: 50%;
+    text-align: justify;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
@@ -45,12 +70,26 @@ ul.topnav li.right {float: right;}
   <li class="right"><a href="#about">About</a></li>
 </ul>
 
-<div style="padding:0 16px;">
-  <h2>Introduction</h2>
-  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-  <h4>Resize the browser window to see the effect.</h4>
+<div class="row">
+  <div class="margin left">
+    <h2>Introduction</h2>
+    <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
+    <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+    <h4>Resize the browser window to see the effect.</h4>
+    <p>Amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra! Nulla aliquet porttitor lacus, luctus accumsan tortor.
+      Ultrices eros, in cursus turpis massa tincidunt dui ut ornare lectus sit amet est! Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae ultricies leo.
+      Sed enim ut sem viverra aliquet eget sit amet tellus cras adipiscing enim? Interdum posuere lorem ipsum dolor sit amet, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo.
+      Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Fringilla est ullamcorper eget nulla.</p>
+  </div>
+  <div class="margin right">
+    <p>This another papargraph using div.class A scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor, id aliquet lectus proin nibh nisl, condimentum id venenatis. Ultrices mi tempus imperdiet nulla.
+      Quam id leo in vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate. A molestie lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus.
+      Lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien, faucibus et molestie? Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas!
+      Gravida arcu ac tortor dignissim convallis aenean et tortor at risus. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus?</p>
+    <p>Non, consectetur a erat nam at lectus. Tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed.
+      Nisl purus, in mollis nunc sed id semper risus in hendrerit gravida. Ut placerat orci nulla pellentesque dignissim enim, sit amet venenatis urna cursus eget nunc scelerisque viverra mauris, in.
+      Nibh sed pulvinar proin gravida hendrerit lectus a molestie lorem ipsum. Quis eleifend quam adipiscing vitae proin sagittis, nisl rhoncus mattis rhoncus, urna neque viverra justo, nec ultrices dui sapien?</p>
+  </div>
 </div>
-
 </body>
 </html>

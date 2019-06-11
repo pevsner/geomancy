@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding:5px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+    .column2{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column1"> 
+  <h1>The 8 Directions
+  </h1>
+    <p>
+      The Chinese discovered that Qi (energy) had differing characteristics depending upon the direction of movement. They derived a system of reading these energetic interactions using the main
+      <a href="5elements.html">5 elements
+      </a> qualities.
+    </br>
+    </br>
+    A
+    <b>Lo Pan
+    </b> is used to obtain information on orientation and the qualities of energy.
+    It has a
+    <b>magnetic compass
+    </b> at its center with radial and concentric markings to indicate the main 8,and sub divisions, directions, the former and later heavenly sequences, portents (fortune) of spaces,
+    <a href="waterdragon.html">Water Dragon
+    </a> (flows of water, rivers/streams) information and more.
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+  <br/>
+  <img src="imgs/compass.jpg">
+  <br/>
+  <i>My Lo Pan
+  </i>
+    </p>
+  </div>
+</div>
+
+  <hr>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>The Baguas
+    </h2>
+    <p>
+      Bagua (or Pakua) is the Chinese for 8 directions.
+      <br/>
+      <br/>
+      The 8 main directions are:
+      <b>Water, Earth, Wood, Small Wood, Fire, Big Earth, Metal, Big Metal
+      </b>.
+</p>
+    <h4>
+      <a href="#heavenly">Heavenly Bagua
+      </a>
+    </h4>
+    <p> The inner Trigrams relate to the "Former Heavenly Sequence". A system derived to explain the energy of free flowing
+      <b>Feng
+      </b>.
+    </p>
+
+    <h4>
+      <a href="#earthly">Earthly Bagua
+      </a>
+    </h4>
+    <p> The outer Trigrams relate to the "Later Heavenly Sequence". A system derived to explain the exchange of energy within a building/space. Essentially the earth energy (
+      <b>Shui
+      </b>) component  inherent in the structure or gravitational effect .
+</p>
+    <p>
+      The Heavenly Bagua is moveable and the Earthly Bagua is fixed. Correctly combining and reading these two Bagua's gives the portent of a particular space.
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+  <img src="imgs/bagua1.jpg">
+  <br/>Earthly & Heavenly Baguas
+      </p>
+<p>
+  <i>The Chinese always show fire ( south ) at the top because it relates to the heavens ( S, fire, yang ) above and the earth(N, water, yin) below.
+  </i>
+      <p/>
+      <p>
+      The sub-divisions are characterised by the ratio of each main element. There are 64 Hexagrams [ 6 (2x3 trigrams) line symbols, consisting of straight line (yang) and broken lines (yin)] which describe more specific qualities.
+</p>
+  </div>
+</div>
+    <div class="row">
+      <p>
+      <i>NB. The eight main directions are the most commonly used, however there are further subdivisions (down to 2 degrees) which can give a more detailed divination - for specific work (desk) and furniture positioning and the calculation of the "Water Dragon" (orientation of external water flows in relation to a building).
+	See the
+	<a href="yinyang.html">Yin/Yang
+	</a> &
+	<a href="advanced.html">advanced
+	</a> sections for more information.
+      </i>
+  </p>
+  </div>
+<hr>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>Lo Shu (Magic Square)
+    </h2>
+    <p>
+      Lo Shu is a numeric magic square which said to have been found as markings the back of a
+      <b>Turtle
+      </b>.
+      It ties in the
+      <b>8 directions
+      </b> and
+      <b>seasonal changes
+      </b> and relates to
+      <b>personal horoscope
+      </b> numbers.
+      <br/>
+      <i>(see horoscope section to calculate your own personal number).
+      </i>
+      <br>
+      <br>
+Odd and even numbers alternate in the periphery of the square, the four corners are even numbers,
+and the 5 odd numbers form a cross in the centre. Each line (vertical, horizontal and diagonal) add
+up to 15, which is the number of days in each of the 24 cycles of the Chinese solar year.
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+      <br/>
+  <img src="imgs/lo_shu_sq.jpg">
+    </p>
+    <p class="pcenter">
+Lo Shu (magic square)
+    <p>
+  </div>
+</div>
+<div class="row">
+<p>
+  <i>I have indicated how the seasons tie in as well as how the amount of Yin and Yang varies. Maximum
+    Yin during winter, increasing Yang and decreasing Yin to mid summer and vice versa.
+  </i>
+</p>
+</div>
+<hr>
+<div class="row">
+  <div class="column1"> 
+    <h2>Readings
+    </h2>
+    <p>
+      To establish the overall characteristic of Qi ( energy ) within a building , take a
+      magnetic compass reading at the main door (from the door facing outwards).
+      <br/>
+      It is the flow of energy
+      <b>into
+      </b> the building that we are interested in. Further qualities of energy in seperate rooms is determined by entry flow. This is a sub-flavour of energy from the original source.
+      <br>
+      <br>
+      Whilst each space contains all of the five elements energies - the entry point 
+      is key to determining what element has the most influence.
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+      <br>
+      <br>
+  <img src="imgs/south.jpg">
+    </p>
+  </div>
+</div>
+<div class="row">
+  <p>
+<i>E.g.. Qi flowing into a room facing south has the general characteristic of the fire element. 
+  The two Bagua's (Earthly and Heavenly) give insight into the properties and interactions of energy
+  by direction.
+</i> 
+</p>
+</div>
+<hr>
+<div class="row">
+  <h2>Earthly Bagua (fixed)
+  </h2>
+    <p>
+    These spaces refer to the general characteristics. The true
+    actual magnetic orientation of spaces within a room.
+<br>The energetic characteristics can be summarised simply.
+      <table style="width:100%;margin:10px;color:red;text-align:left;">
+  <tr >
+    <th>Space
+    </th>
+    <th>Quality
+    </th> 
+    <th>Action
+    </th>
+  </tr>
+  <tr>
+    <td>1 Knowledge
+    </td>
+    <td>Higher good,info needed
+    </td>
+    <td>Books, guides
+    </td>
+  </tr>
+  <tr>
+    <td>2 Family
+    </td>
+    <td>Fellowship, employees
+    </td>
+    <td>Photos of
+    </td>
+  </tr>
+  <tr>
+    <td>3 Wealth, Health
+    </td>
+    <td>Value, quality
+    </td>
+    <td>Portrait, Financial docs
+    </td>
+  </tr>
+  <tr>
+    <td>4 Fame
+    </td>
+    <td>How you are percieved
+    </td>
+    <td>Items related to how you wish to be percieved
+    </td>
+  </tr>
+  <tr>
+    <td>5 Marriage, Business
+    </td>
+    <td>Unions, Partnerships
+    </td>
+    <td>Photos,items related to
+    </td>
+  </tr>
+  <tr>
+    <td>6 Children
+    </td>
+    <td>New ideas, projects, early growth
+    </td>
+    <td>Photos, items related to
+    </td>
+  </tr>
+  <tr>
+    <td>7 Helpful Friends
+    </td>
+    <td>Helpful
+    </td>
+    <td>Telephone, Computer
+    </td>
+  </tr>
+  <tr>
+    <td>8 Career
+    </td>
+    <td>Lifes Purpose, Fusion
+    </td>
+    <td>Items relating to vocation, purpose
+    </td>
+  </tr>
+  </table>
+    </p>
+</div>
+<hr>
+<div class="row">
+  <div class="column1"> 
+    <h2>Heavenly Bagua
+    </h2>
+    <p>These "moveable" portents tell us the interactions of free flowing qi (energy) with the stable state of the above Earthly Bagua.
+    </p>
+      <table style="width:80%;margin-left:10px;">
+  <tr style="text-align:left;">
+    <th>Space
+    </th>
+    <th>Quality
+    </th> 
+    <th>Portent
+    </th>
+  </tr>
+  <tr>
+    <td>a
+    </td>
+    <td>Life, Stable, Balanced
+    </td>
+    <td>+
+    </td>
+  </tr>
+  <tr>
+    <td>b
+    </td>
+    <td>Longevity, Extends Life
+    </td>
+    <td>++
+    </td>
+  </tr>
+  <tr>
+    <td>c
+    </td>
+    <td>Creates Qi
+    </td>
+    <td>+++
+    </td>
+  </tr>
+  <tr>
+    <td>d
+    </td>
+    <td>Problems, Hinderances
+    </td>
+    <td>--
+    </td>
+  </tr>
+  <tr>
+    <td>e
+    </td>
+    <td>Death, Disconnects
+    </td>
+    <td>---
+    </td>
+  </tr>
+  <tr>
+    <td>f
+    </td>
+    <td>Five Ghosts, Ancestors
+    </td>
+    <td>+
+    </td>
+  </tr>
+  <tr>
+    <td>g
+    </td>
+    <td>Good fortune, Luck
+    </td>
+    <td>++
+    </td>
+  </tr>
+  <tr>
+    <td>h
+    </td>
+    <td>Bad influences, Malign
+    </td>
+    <td>+
+    </td>
+  </tr>
+      </table>
+      <br>
+    <p>
+      <i>Eg. A
+	<b>south facing
+	</b>house (door to south) has predominantly
+	<b>Fire
+	</b>Qi (energy) entering it, so the interaction to an eastward wall space ( middle of East side) would give us an exchange of wood (east) with fire (south) - wood feeds fire - hence the portent would be very beneficial (as you can see above and in the diagram, a portent "C" or creates Qi). The energetic activity in that space is very generative.
+	<br/>
+	<br/>
+	This example is one of the most simple examples, the others are more complex.
+A full reading is made by overlaying the former and later heavenly sequences. Combining the two trigrams (3 lines) gives a hexagram (6 lines) which describes the energetic properties of a space.
+      </i>
+      <br/>
+8 X 8 = 64 hexagrams which relate to the 64 hexagrams of the "I Ching".  
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+      <br>
+      <br>
+      <img src="imgs/portents.jpg">
+      
+      <br>Portent map
+      <br>
+</br>
+      <img src="imgs/swirls_colour.jpg">
+      <br/>
+      Flow representation
+      </p>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>Flows of Energy
+    </h2>
+    <p>Flows of Qi and the eddying corner effect explain how the 8 directions are applicable to a 4 sided room.
+    </p>
+    <p>
+      Every space contains all the elements, however we can however determine which element/s have the greatest influence and the overall characteristic.
+    </p>
+    <p>
+Door position also tells us whether the Qi is more or less active.
+<br>
+    </p>
+    <p>
+      <br>
+      <br>
+      <b>Yang room = left sided doorway
+      </b>, Qi spirals clockwise. Most active, best for working activities
+      <br>
+      <br>
+      <b>Yin room = right sided opening
+      </b>, Qi spirals anti-clockwise. Least active, best for calming ( bedrooms, relaxation etc)
+      <br>
+      <br>
+      <b>Lung room  = central opening
+      </b>, Qi spirals both ways, yin quality to the right side of the room (calming), yang to the left (active)
+    </p>
+  </div>
+  <div class="column2">
+    <p class="pcenter">
+      <br>
+      <br>
+      <img src="imgs/swirls.jpg">
+      <br>
+      <br>
+      <img src="imgs/roomtypes.jpg">
+    </p>
+    <br>
+    <br>
+  </div>
+</div>
+
+
+</body>
+</html>
+

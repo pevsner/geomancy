@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet"/>
 <style>
 body {
   margin: 0;
@@ -122,8 +123,10 @@ div.content {
 It included localised energetic interactions, planetary movement, horoscopes.</p>
   </div>
   <div class="column2 ">
-    <img alt="wind and water" src="imgs/woman_forces1.jpg"/>
-  <p style="border-radius:20px;line-height:1.1em;color:#585591;background:#f0f0f0;padding:20px;">
+    <p class="imgc">
+    <img  alt="wind and water" src="imgs/woman_forces1.jpg"/>
+</p>
+  <p style="text-align:justify;border-radius:20px;line-height:1.1em;color:#585591;background:#f0f0f0;padding:20px;">
     <i>Everything is connected, the planets, the elements and all the living things. What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realise our potential.</i> 
 </p>
 <hr/>
