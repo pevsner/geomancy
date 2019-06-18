@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <style>
+      body {
+	  margin: 0;
+      }
+
+      .sidebar {
+	  margin: 0;
+	  padding: 0;
+	  width: 160px;
+	  background-color: #f1f1f1;
+	  position: fixed;
+	  height: 100%;
+	  overflow: auto;
+      }
+
+      .sidebar a {
+	  display: block;
+	  color: black;
+	  padding: 16px;
+	  text-decoration: none;
+      }
+      .sidebar a.active {
+	  background-color: #4CAF50;
+	  color: white;
+      }
+
+      .sidebar a:hover:not(.active) {
+	  background-color: #555;
+	  color: white;
+      }
+
+      div.content {
+	  margin-left: 160px;
+	  padding: 1px 16px;
+	  height: 1000px;
+      }
+
+      @media screen and (max-width: 900px) {
+	  .sidebar {
+	      width: 100%;
+	      height: auto;
+	      position: relative;
+	  }
+	  .sidebar a {float: left;}
+	  div.content {margin-left: 0;}
+      }
+
+      @media screen and (max-width: 400px) {
+	  .sidebar a {
+	      text-align: center;
+	      float: none;
+	  }
+      }
+      /* Create two equal columns that floats next to each other */
+      .column1 {
+	  float: left;
+	  width: 55%;
+      }
+
+      .column2 {
+	  float: left;
+	  width: 45%;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+      }
+
+      /* RESPONSIVE layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+	  .column1{
+	      width: 100%;
+	  }
+      }
+      @media screen and (max-width: 800px) {
+	  .column2{
+	      width: 100%;
+	  }
+      }
+      .imgc{
+	  text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <a class="active" href="#intro">Intro
+      </a>
+      <a href="#theory">Theory
+      </a>
+      <a href="#practice">Practice
+      </a>
+      <a href="#advanced">Advanced
+      </a>
+      <a href="#contact">contact
+      </a>
+    </div>
+
+    <div class="content">
+      <div class="row">
+	<h1>Theory</h1>
+	<div class="column1">
+	  <h2>Introduction</h2>
+	  <p>
+The theory behind Feng Shui is the same for all Taoist practices including Tai Qi, Qi Gong, Acupuncture and internal Alchemy.
+<br/>
+Various energies were identified and a system of classification and calculating their interactions was developed.
+<br/>
+<i>
+  <ul>
+  Energy types:
+    <li>Wu Qi : Original Source energy ></li>
+    <li>Tai Qi : Balanced fusion of Yin & Yang energies > (splits into)</li>
+    <li>Yin : Female energy, -'ve charge & </li>
+    <li>Yang : Male energy, +'ve charge. ></li>
+    <li>The 5 Elements : Five general energy types ></li>
+    <li>The 8 Directions : Eight directional energies ></li>
+    <li>The 64 Hexagram's : 8x8 interactions, more specific types.</li>
+  </ul>
+</i>
+The Basic premise is;
+<br/>
+There was/is an <b>original source</b> energy, 'Wu Qi', from which the cosmos was born and continually recreates. This is unlike the energy present in the physical Universe we know of, it is a unity (one). <i>ie. Has no +'ve nor -'ve charge.</i> 
+<br/>
+<br/>
+'Wu Qi' energy transforms from a unity (one) to binary (two) when it becomes physical. It splits into <b>Yin</b> (female, -'ve charge) and <b>Yang</b> (male, +'ve charge) energies. 
+All things in the physical Universe are consist of varying, individually specific, proportions of Yin & Yang. The proportion determines character, properties and interaction.
+<br/>
+<br/>
+Five main energy types, with generally similar qualities, were identified as <b>'The Five Elements'</b>. In Scientific language they can be thought of as the four fundamental forces: <b>Gravity, Electromagnetism, Strong Nuclear and Weak Nuclear</b>. The Taoists identified and included a fifth unifying force called <b>'Earth'</b>.
+<br/>
+<br/>
+The use of the '5 Elements' is real and symbolic. <i>eg. The Element Water is the main energy found in water, but also is the main element in a approximately a fifth of everything (the planet Mercury and the Kidney organs for instance)</i> 
+<br/>
+Each Element describes its own inherent qualities and how it interacts with the others. <i>eg. Wood feeds Fire (this would be a 'creative' exchange), whereas, Water douses Fire (this would be a controlling/destructive exchange).</i>
+<br/>
+Proportion is obviously a factor. <i>eg. one cup of water won't extinguish a bonfire.</i>
+<br/>
+<br/>
+The two <b>'5 Element Cycles'</b> express generative and controlling exchanges. Further detail can be calculated using other methods, however still based on the Elements.
+<br/>
+<br/>
+Energy has different qualities based on direction <i>(eg. energy coming from the south has the property of Fire) </i>and so a system called <b>The 8 Directions</b> (Bagua) was devised to describe energy types based on Compass orientation. <i>[same 5 Elements with three additional distinct sub-flavors. eg. 3 additional directional energies were included, small Earth, small Wood & small Metal.]</i> 
+<br/>
+<br/>
+<hr/>
+<h2>More Detailed Explanation</h2>
+<h3>Wu Qi</h3>
+	<p>   
+   WuQi is the original source from which the cosmos was and is born/reborn.
+It is a unity, a single thing, not of the physical cosmos.
+/* scientists might call it dark matter, the god particle, or indeed anti-matter. However one describes it, if at all right, it is "nothingness" */
+	  </p>
+	  <h3>Yin & Yang</h3>
+	  <p>
+	    
+Yin and Yang lie at the core of all Traditional Chinese explanations of life on earth. ( yang= solid line, yin=broken line )
+
+Everything in the Spiritual realm is a unity.
+Everything on the physical plane is a duality.
+	  </p>
+	  <p>
+Yin and Yang are the two primary forces, they are opposites that compliment.
+
+Yang is the male principle or +'ve charge and Yin is the female principle or -'ve charge.
+
+The proportion, quality and interactions of these two forces give rise to all varied physical manifestations.
+Yin and Yang balanced and in harmony is called 'Tai Qi'. The proportion of yin and yang in perfect (imperfect) harmony is 1: 1.61803. <i>[ Which is also the proportion of 'Phi' and the 'Golden Section' ]</i>
+	  </p>
+	  
+	</div>
+	<!-- silde column -->
+	<div class="column2 pcenter">
+	  <br/>
+	  Heavenly energies (planetary & cosmic) <br/>
+	  Cosmic Particle (star) dust <br/>
+	  <img alt="wind and water" src="imgs/woman_forces1.jpg"/>
+	  <br/>
+	  Earthly energies (gravity & nuclear)
+	  <br/>
+	  <br/>
+	  <p style="margin-left:20px;border-radius:30px;line-height:1.1em;color:#585591;background:#f0f0f0;padding:20px;">
+	    <i>Everything is connected, the planets, the elements and all the living things. Our environment can be thought of as a reflection of ourselves and vice versa.
+	    </i> 
+	  </p>
+	</div>
+      </div>
+
+      <div class="row">
+	<h2>The 5 Elements</h2>
+	<div class="column1">
+	  <p>
+	  </p>
+	</div>
+	<div class="column2 pcenter">
+	  <img alt="bagua" src="imgs/bagua1.jpg"/>
+	</div>    
+      </div>
+      <div class="row">
+	<div class="column1">
+	  <p>
+	  </p>
+	</div>
+	<div class="column2 pcenter">
+	  <img alt="trigram lines" src="imgs/trigrams.jpg"/>
+	</div>    
+      </div>
+    </div>
+  </body>
+</html>
