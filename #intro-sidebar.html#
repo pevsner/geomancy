@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <style>
+      body {
+	  margin: 0;
+      }
+
+      .sidebar {
+	  margin: 0;
+	  padding: 0;
+	  width: 160px;
+	  background-color: #f1f1f1;
+	  position: fixed;
+	  height: 100%;
+	  overflow: auto;
+      }
+
+      .sidebar a {
+	  display: block;
+	  color: black;
+	  padding: 16px;
+	  text-decoration: none;
+      }
+      .sidebar a.active {
+	  background-color: #4CAF50;
+	  color: white;
+      }
+
+      .sidebar a:hover:not(.active) {
+	  background-color: #555;
+	  color: white;
+      }
+
+      div.content {
+	  margin-left: 160px;
+	  padding: 1px 16px;
+	  height: 1000px;
+      }
+
+      @media screen and (max-width: 900px) {
+	  .sidebar {
+	      width: 100%;
+	      height: auto;
+	      position: relative;
+	  }
+	  .sidebar a {float: left;}
+	  div.content {margin-left: 0;}
+      }
+
+      @media screen and (max-width: 400px) {
+	  .sidebar a {
+	      text-align: center;
+	      float: none;
+	  }
+      }
+      /* Create two equal columns that floats next to each other */
+      .column1 {
+	  float: left;
+	  width: 55%;
+      }
+
+      .column2 {
+	  float: left;
+	  width: 45%;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+      }
+
+      /* RESPONSIVE layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+	  .column1{
+	      width: 100%;
+	  }
+      }
+      @media screen and (max-width: 800px) {
+	  .column2{
+	      width: 100%;
+	  }
+      }
+      .imgc{
+	  text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <a class="active" href="#intro">Intro
+      </a>
+      <a href="#theory">Theory
+      </a>
+      <a href="#practice">Practice
+      </a>
+      <a href="#advanced">Advanced
+      </a>
+      <a href="#contact">contact
+      </a>
+    </div>
+
+    <div class="content">
+      <div class="row">
+	<h2>Welcome</h2>
+	<div class="column1">
+	  <p>
+	    This site explains Taoist Classical Feng Shui including basic theory, practical design suggestions and common ground to be found with western science.
+	  </p>
+	  <h3>Introduction</h3>
+	  <p>
+	    Geomancy is a method of reading the Earths affect upon us. Some systems include planetary influences and beyond.
+	    <b>Geo
+	    </b> = earth,
+	    <b> Mancy
+	    </b> = divination or reading.
+	    <br/>
+	    <br/>
+	    Most Ancient Cultures had a system. Eg. Aboriginal (Shamanic), African tribes, American Indian (Shamanic), Celtic, Chinese, Egyptian, Indian, Nordic (including Viking), South American (Mayan and Inca). Most are irrelevant today. Systems vary in sophistication from "stick throwing" divination to Renaissance metaphysics which was a hight point in combining prolific period of combining science, arts and spirituality. <a href="https://en.wikipedia.org/wiki/Robert_Fludd" target="_blank">Robert Fludd</a> was supposedly the last person to know everything there was to be known in his time. 
+	    <br/>
+	    <br/>
+	    The Chinese Taoist Art of Feng Shui is the most comprehensive and well documented Geomantic Art. It aims to balance the living environment to benefit occupants. Assessment involves a detailed Site Analysis and Personal Horoscope calculation which form the basis of design suggestions. Derived from the writings of Tao Tzu and his knowledge of energy and interactions.
+	    <br/>
+	    There's no magic or faith involved.
+	    <br/>
+	    <br/>
+	    <i>Modern "pseudo" feng shui borrows from many sources such as New Age, Shamanic and Zen ideas. Whilst increasing awareness of ones living environment is does not have the detailed methodolgy and understanding of energy exchange that classical Feng Shui does.
+	    </i>
+	  <p/>
+	  <p>Classical Feng Shui is an amalgam of three different Schools.<i> The Form School (shapes and topography in the landscape influencing energy flow to the site), The Compass School (energy interactions affected by direction) and Flying Star School (cosmic and planetary analysis) Schools. </i>
+	    <br/>
+	    The main influencial forces are the heavens (planetary forces), earthly forces (the 5 elements) and how they are affected by direction (8 directions), cosmic partical dust (star dust) local landscape topography and personal energy inherent since birth.
+	  </p>
+	</div>
+	<!-- silde column -->
+	<div class="column2 pcenter">
+	  <br/>
+	  Heavenly energies (planetary & cosmic) <br/>
+	  Cosmic Particle (star) dust <br/>
+	  <img alt="wind and water" src="imgs/woman_forces1.jpg"/>
+	  <br/>
+	  Earthly energies (gravity & nuclear)
+	  <br/>
+	  <br/>
+	  <p style="margin-left:20px;border-radius:30px;line-height:1.1em;color:#585591;background:#f0f0f0;padding:20px;">
+	    <i>Everything is connected, the planets, the elements and all the living things. Our environment can be thought of as a reflection of ourselves and vice versa.
+	    </i> 
+	  </p>
+	</div>
+      </div>
+
+      <div class="row">
+	<h2>Feng Shui - General</h2>
+	<div class="column1">
+	  <p>
+	    The Taoist Art of Feng Shui is used to determine the best siting and planning of a building. It includes assessing a buildings location in the landscape, room layouts and detailed furnishing character and positioning.
+	    <br/>
+	    Originally it was primarily used for Palace design but subsequently became commonly adopted.
+	    Nowadays it is a must before moving or setting up businesses in large parts of Asia. (from Banks to homes).
+	    <br/>
+	    <br/>
+	    It is based on Taoist knowledge of universal energy exchanges which were derived from the writings of <a href="https://simple.wikipedia.org/wiki/Lao_Tzu">Lao Tzu</a> (the "Tao Te Ching" and "Hua Hua Ching") and the "I Ching" (the classic "book of change"). Other practices were absorbed over time. 
+	    <br/>
+	    The same principles apply to all Taoist practices including Tai Qi Chuan, Qi Gong, Acupuncture and Internal Alchemy.
+	    <br/>
+	    <br/>
+	    The aim is to balance all the energies in the environment to suit the occupants. Divination/assessment is done by observing energy exchanges (planetary movement, the larger landscape/topography/orientation, local immediate landscape and small internal spaces). Horoscopes of individuals are also calculated to refine suitability. Planning or alterations, internal design and furnishing suggestions are then made based on the assessment. 
+	  </p>
+	</div>
+	<div class="column2 pcenter">
+	  <img alt="bagua" src="imgs/bagua1.jpg"/>
+	</div>    
+      </div>
+      <div class="row">
+	<div class="column1">
+	  <p>
+	    Feng Shui is about balancing Qi (energy) so residents can live in harmony with the environment.
+	    <br/>
+	    From receiving a good flow of energy from the larger topographical surroundings, to internal flows of energy circulating to all rooms, to the fine positioning of objects.
+	    <br/>
+	    <br/>
+	    Qi is a, generalised, Chinese word for energy: from Heavenly ( planetary) to Earthly ( physical ), coarse to subtle.
+	    <br/>
+	    *WuQi, TaiQi, Yin & Yang, the 5 elements, the 8 directions, the 64 hexagrams,
+	    There is an Original Source energy, WuQi (unified, from which everything else comes)
+	    <br/>
+	    Then there is the duality of physical universe. Yin and Yang (-'ve and +'ve, male & female, light & dark)
+	    <br/>
+	    All the other sub groups of Qi are variations of above ones, and include:
+	    <br/>
+	    Cosmic Particle dust
+	  </p>
+	</div>
+	<div class="column2 pcenter">
+	  <img alt="trigram lines" src="imgs/trigrams.jpg"/>
+	</div>    
+      </div>
+    </div>
+  </body>
+</html>
