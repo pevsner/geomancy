@@ -24,9 +24,8 @@ Although 'in balance', 'Tai Qi' is a state of balanced imbalance.
 To gain an idea of the balance of yin and yang. Imagine two weights of 1kg and 1.618kg pivoted at a distance 1m and 0.618m (Phi m - symbol illustrated). 
 
 phi
-Phi - golden ratio
+Phi - golden ratio or 1.618
 
-balance
 balance
 
 An good example of the occurrence of the above proportion in nature is the pine cone.
@@ -40,7 +39,7 @@ New growth occurs where the 5 descending spirals of  Yang Qi combine with the 8 
 
 [ Viktor Shauberger (1885-1958) the Austrian Scientist sought to unlock the secrets of natural energy, and found much common ground with Chinese Metaphysics . His works are a good source of information for those of you seeking a cross-over explanation. ]
 
-* Attributes  (table of y&y here)
+* Attributes  (table of yin & yang here)
   The table lists the main characteristics of yin and yang.
 * Trigrams & Hexigrams
 
@@ -49,7 +48,6 @@ The Chinese used a binary system to describe the quality of energy.
 Yang (+'ve, male) is a solid line and
 
 Yin (-'ve, female) is a broken line. 
-
 
 The Trigrams - comprising three binary components describe the quality of energy by proportion of yin and yang. ( read from bottom to top ).
 Combining two Trigrams produces a Hexagram, which gives more information on the quality of energy.
