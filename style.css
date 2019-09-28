@@ -1,12 +1,10 @@
 /*Strip the ul of padding and list styling*/
 body{
     margin:0;
-      font-family:Arial, Helvetica, sans-serif ;
     font-size:1em;
-    line-height: 1.4em;
     color:navy;
 }
-i{
+{
     color:#4682b4;
 }
   hr{
@@ -18,8 +16,9 @@ i{
   .pcenter{
       text-align:center;
 }
-  h1,h2,h3,h4,h5 {
-    color:#473C8B
+h1,h2,h3,h4,h5,h6 {
+    color:#473C8B;
+    margin-bottom:1px;
 }
   p.nb{
       color:#b4b4b4
@@ -104,29 +103,4 @@ i{
   }
 }
 
-/* Easy theming */
-
-$menu-color: rgba(white, .75);
-$menu-bg: #222;
-$menu-item-hover-color: rgba(white, .9);
-$menu-item-hover-bg: black;
-$menu-item-border-color: lighten($menu-bg, 3%);
-
-.navigation {
-  background-color: $menu-bg;
-  color: $menu-color;
-  .menu {
-    li {
-      border-color: $menu-item-border-color;
-      &:hover,
-      &:focus,
-      &:active {
-        > a {
-          color: $menu-item-hover-color;
-          background-color: $menu-item-hover-bg;
-        }
-      }
-    }
-  }
-}
 
