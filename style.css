@@ -1,7 +1,11 @@
 /*Strip the ul of padding and list styling*/
 body{
     margin:0;
+<<<<<<< HEAD
     font-size:1.2em;
+=======
+    font-size:1.1em;
+>>>>>>> Html files change
     color:navy;
 }
 {
@@ -21,6 +25,12 @@ body{
 h1,h2,h3,h4,h5,h6 {
     color:#473C8B;
     margin-bottom:1px;
+}
+h1{
+    font-size:1.8em;
+}
+h2{
+    font-size:1.5em;
 }
   p.nb{
       color:#b4b4b4
