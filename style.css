@@ -1,7 +1,15 @@
 /*Strip the ul of padding and list styling*/
 body{
     margin:0;
+<<<<<<< HEAD
     font-size:1.1em;
+=======
+<<<<<<< HEAD
+    font-size:1.2em;
+=======
+    font-size:1.1em;
+>>>>>>> Html files change
+>>>>>>> 876b37240b10e21e973165567af37617e88e1cab
     color:navy;
 }
 {
@@ -12,6 +20,7 @@ body{
   }
   p{
     text-align:justify;
+    font-size:1em ;
 }
   .pcenter{
       text-align:center;
@@ -29,17 +38,18 @@ h2{
 }
   p.nb{
       color:#b4b4b4
-	font-size:0.8em;
+	font-size:1em;
     line-height:1.1em;
   }
   table{
       color:#473C8B
-      font-size:0.9em;
+      font-size:1em;
       text-align:left;
   }
   th{
       color:#473C8B
       padding-left:20px ;
+      font-weight:normal;
   }
   ul{
       color:#473C8B;
@@ -49,7 +59,7 @@ h2{
 }
 
 /* Create two equal columns that floats next to each other */
-.column1 {
+.left_column, .right_column {
   float: left;
   width: 50%;
 }
