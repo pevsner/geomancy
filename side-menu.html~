@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family:Tahoma, Geneva, sans-serif; 
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:rgba(255, 0, 0, 0.7); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+#submenu {
+    font-size: 1em;
+    color: black;    /* light green #e6ffcc; */
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#0099ff; /* green  #4CAF50; */
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 14px;
+}
+
+@media screen and (min-width: 850px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #main{ margin-left:250px;} 
+  #ham{ display: none;}
+  #close{ display: none;}
+}
+@media screen and (max-width: 850px) {
+    #main{margin-left:0}
+}
+@media screen and (min-width: 1200px) {
+    #main{padding-left:50px;padding-right:50px;}
+}
+</style>
+</head>
+<body>
+<!-- NAVIGATION -->
+<div id="mySidenav" class="sidenav">
+  <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">INTRO</a>
+  <a href="#">THEORY</a>
+     <a id="submenu" href="#">- Qi(energy)</a>
+     <a id="submenu" href="#">- 5 Elements</a>
+     <a id="submenu" href="#">- 8 Directions</a>
+     <a id="submenu" href="#">- Horoscope</a>
+  <a href="#">PRACTICE</a>
+     <a id="submenu" href="#">- Siting/Landscape</a>
+     <a id="submenu" href="#">- interior</a>
+     <a id="submenu" href="#">- Spaces/Portents</a>
+     <a id="submenu" href="#">- Putting it together</a>
+  <a href="#">Thoughts</a>
+     <a id="submenu" href="#">- Advanced</a>
+     <a id="submenu" href="#">- Personal Practice</a>
+     <a id="submenu" href="#">- development</a>
+  <a href="#">@contact</a>
+</div>
+<!-- /NAVIGATION -->
+<div id="main">
+<!-- TOP BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- TITLE -->
+    <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span style="font-size:2em";><b>Feng Shui</b></span>
+<!-- /TITLE -->
+<div>
+<p>
+This site explains Taoist Classical Geomancy or Feng Shui.
+It covers theory and includes practical design suggestions. 
+</p>
+<p>
+  Please use it as a resource to discover and implement change.
+  <i>With the proviso that this is my own interpretation.</i>
+  </p>
+<p style="text-align:center" >
+<img alt="Planet Earth" src="imgs/world.jpg"/>
+</p>
+<h2> Introduction</h2>
+<p>
+  Geomancy is the reading of the Earths energies (which can also include planets) and how we are affected by them.
+</p>
+<ul>
+  <li><b>geo</b>=earth.</li>
+  <li><b>mancy</b>=divination or reading.</li>
+</ul>
+<p>
+Most Ancient Cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have a history of some form of geomancy.
+</p>
+<p>
+Feng Shui, the Chinese Taoist form of Geomancy, is one of the most comprehensive and well documented explanations.
+It is a very logical system based on the creation and interactions of energy(Qi).
+</p>
+<p>
+In pure Classical Feng Shui there is no 'hocus pocus', although symbology and Myth are used (see the footnote on this page). All calculations and suggestions can be explained according to the theory and derived systems outlined in this site.
+</p>
+<p style="text-align:center" >
+<img alt="Energy Absorbtion" src="imgs/woman_forces1.jpg"/>
+</p>
+<i> Everything is connected, the planets, the elements and all the living things.
+In Taoism, there is the concept of a second (stomache) brain, which can be thought of as "gut instinct".					
+In 'new age' speak: 
+What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
+It is important to note that Ones own personal development is the most important aspect of Taoism (covered in greater detail later) and that Feng Shui was     
+</i>
+</div>
+
+
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<script>
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+  document.getElementById("mySidenav").style.width = "0";
+  } else {
+  document.getElementById("mySidenav").style.width = "250px";
+  }
+}
+
+var x = window.matchMedia("(max-width: 850px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+</script>
+   
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html> 

@@ -33,52 +33,7 @@ body {
     padding: 0;
     font-size: 0.8em;
 }
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 250px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 12px;
-  text-decoration: none;
-}
- 
-.sidebar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-div.content {
-  margin-left: 250px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
 @media screen and (max-width: 850px) {
-  .sidebar {
-    width: 0;
-    height: auto;
-    position: fixed;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
   #main{display:block;}
 }
 
@@ -165,16 +120,7 @@ div.content {
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!-- slide menu -->
     <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-    </div>
-    
-<!-- Side menu -->
-<div class="sidebar">
-  <h2 style="margin-left: 10px;">Feng Shui</h2>
+  <  <h2 style="margin-left: 10px;">Feng Shui</h2>
   <a class="active" href="#home">INTRODUCTION</a>
   <a href="#news">THEORY</a>
   <a href="#news" class="second">- Qi (energy)</a>
@@ -186,7 +132,9 @@ div.content {
   <a href="#news" class="second">- Putting it all together</a>
   <a href="#about">THOUGHTS</a>
   <a href="#contact" class="second">@contact</a>
-</div>
+a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    
 
 <div class="content"id="main">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>

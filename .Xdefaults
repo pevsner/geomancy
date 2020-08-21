@@ -1,0 +1,36 @@
+XTerm*utf8: 1
+XTerm*cursorBlink: true
+Xft.hintstyle:	hintslight
+Xft.hinting:	1
+Xft.rgba:	rgb
+Xft.antialias:	1
+/* Xft.dpi:	96 */
+*scaleHeight:   1.0
+*saveLines:	15000
+*faceName:      DejaVu Sans Mono
+*faceSize:	13
+*VT100.Translations: #override Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n Ctrl Shift <Key>C: copy-selection(CLIPBOARD) 
+*vt100.translations: #override Ctrl <Key> minus: smaller-vt-font() \n Ctrl <Key> plus: larger-vt-font()
+xterm*savelines: 3000
+xterm*BorderWidth:2
+xterm*termName: xterm-256color
+*TERM: screen-256
+*cursorColor: #FF0000
+*.foreground: #333342
+*.background: #FCFCFC
+.color0:  #080808
+*.color1:  #F51400
+*.color2:  #00C753
+*.color3:  #FF6111
+*.color4:  #00065F
+*.color5:  #91115C
+*.color6:  #00A9B5
+*.color7:  #A7AAB0
+*.color8:  #7D7D7D
+*.color9:  #FF1100
+*.color10: #03BD00
+*.color11: #DAA520
+*.color12: #212187
+*.color13: #FF1493
+*.color14: #1769C7
+*.color15: #F5F5F5

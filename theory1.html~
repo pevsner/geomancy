@@ -37,6 +37,7 @@ ul.topnav li.right {float: right;}
 </style>
 </head>
 
+<<<<<<< Updated upstream
 <body>
  
 <ul class="topnav">
@@ -79,6 +80,43 @@ In short:
 </b> (female, -'ve charge) and
 <b>Yang
 </b> (male, +'ve charge) . 
+=======
+  <body>
+ 
+<ul class="topnav">
+<li><a href="index.html"><b>Intro</b></a></li>
+  <li><a class="active" href="theory.html">Theory</a></li>
+  <li><a href="practice.html">Practice</a></li>
+  <li><a href="thoughts.html">Thoughts</a></li>
+  <li class="right"><a href="tips.html">Tips</a></li>
+</ul>
+<div>
+
+    <div class="content">
+      <div class="row">
+	<h1>Theory
+	</h1>
+	<div class="column1">
+	  <h2>Introduction
+	  </h2>
+	  <p>
+	    The theory underlying Feng Shui is the same for all Taoist practices including Tai Qi Chuan, Qi Gong, Acupuncture, internal Alchemy and more. Taoism is thought to be derived from the teaching and writings of <b>Lao Tzu</b> (between 600BC & 400BC). Most noteably the poetical 'Tao Te Ching' and the more detailed 'Hua Hua Ching'.
+<br/>
+Their observations and subsequent understanding developed into a system of energy classification and calculation. 
+<br/>
+<br/>
+<i>
+  <b>Qi</b> is a generic term for energy, from subtle (ethereal, invisable) to coarse (physical).
+</i>
+<br/><br/>
+Below is a simple list outlining how "nothing" becomes "something", or the creation of multiple variations.
+<br/>
+<br/>
+<b>Wu Qi</b> is the original energy source from which everything is created. It is a unity state energy
+<i>(consists of one self sufficient force)</i>.
+<br/>
+Wu Qi divides, as it transforms into the physical realm, becoming:
+>>>>>>> Stashed changes
 <br/>
 <br/>
 <b>Tai Qi
@@ -87,12 +125,43 @@ In short:
 </i>
 <br/>
 <br/>
+<<<<<<< Updated upstream
 <b>Yin & Yang
 </b>. All things in the physical realm consist of varying proportions of Yin & Yang. The proportion determines properties and interactions. A solid line was used to depict Yang and a broken line to represent Yin. This simple representation enabled properties of energies to be represented, by proportion, using Trigrams (3 lines) and Hexagrams (6 lines, 2x trigrams).
 <i>Read from bottom to top in quantity. ie The bottom line is the most significant and lessening
   <l>
   </l> upwards.
 </i>
+=======
+<b>Yin & Yang</b>
+<br/>
+<b>Yin
+</b> (female, -'ve charge) and
+<br/>
+<b>Yang
+</b> (male, +'ve charge). 
+<br/>
+All things in the physical realm consist of varying amounts of Yin & Yang (simplistically,female/negative and male/positively charged particles). The proportion of each determines individual characteristics.
+<br/>
+To graphically describe these proportions:
+<br/>
+<b>Yang</b> was depicted with a solid line and
+<br/>
+<b>Yin</b> was depicted with a broken line.
+<br/>
+<b>Trigrams</b>, a mixture of 3 horizontal yin or yang lines, were used to further describe quality.
+<br/>
+There are 8 posible, trigrams, combinations of yin and yang.
+<br/>
+<b>Hexigrams</b>, or 6 horizontal lines are a combination of 2 trigrams, which further describe quality.
+<br/>
+There are 64 possible variations of hexagrams, which can, some say, correspond to the 64 cordons of DNA.
+<br/>
+Trigrams and Hexigrams are read from bottom up.
+The bottom line indicates the most important quality. eg. a Yang line at the bottom indicates that yang is the most prevalent energy type. Higher lines are a deminishing hierarchical refinement. The upper most line has the least importance (although still significant). 
+<br/>
+
+>>>>>>> Stashed changes
 <br/>
 <br/>
 <b>Five Elements
@@ -217,7 +286,11 @@ Yin and Yang balanced and in harmony is called <b>'Tai Qi'</b>. The proportion o
 	  Earthly energies (gravity & nuclear)
 	  <br/>
 	  <br/>
+<<<<<<< Updated upstream
 	  <p style="margin-left:20px;border-radius:30px;line-height:1.1em;color:#585591;background:#f0f0f0;padding:20px;">
+=======
+	  <p >
+>>>>>>> Stashed changes
 	    <i>Everything is connected, the planets, the elements and all the living things. Our environment can be thought of as a reflection of ourselves and vice versa.
 	    </i> 
 	  </p>
@@ -243,6 +316,7 @@ The 5 Elements describe the main types of energy in the physical world. Everythi
 
 Understanding their qualities and the way they interact helps us to implement Feng Shui as well as diagose "well being" in Acupuncture.
 	  </p>
+<<<<<<< Updated upstream
   </div>
   <div class="column1">
     <br/>
@@ -263,3 +337,22 @@ Understanding their qualities and the way they interact helps us to implement Fe
 </body>
 </html>
 
+=======
+	</div>
+	<div class="column2 pcenter">
+	  <img alt="bagua" src="imgs/bagua1.jpg"/>
+	</div>    
+      </div>
+      <div class="row">
+	<div class="column1">
+	  <p>
+	  </p>
+	</div>
+	<div class="column2 pcenter">
+	  <img alt="trigram lines" src="imgs/trigrams.jpg"/>
+	</div>    
+      </div>
+    </div>
+  </body>
+</html>
+>>>>>>> Stashed changes

@@ -1,22 +1,25 @@
 * DONE Welcome
 
 This site explains Taoist Classical Geomancy or Feng Shui.
-It covers the theory and practical design suggestions. 
+It covers theory and includes practical design suggestions. 
 
 /* Please use it as a resource to discover and implement change.
-   Also understand this is my own take on the subject*/
+   With the proviso that this is my own interpretation.*/
 ** Introduction
-Geomancy is the reading of the Earth (and planets) and how we are affected.
+Geomancy is the reading of the Earths energies (which can also include planets) and how we are affected by them.
 geo=earth, mancy=divination or reading.
 
-Most ancient cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have their own systems of explanation.
+Most Ancient Cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have a history of some form of geomancy.
 
-Feng Shui, the Chinese Taoist form of Geomancy, provides one of the most comprehensive and well documented explanations.
-It is a very logical system, once the fundementals are grasped.
-There's no magic/faith involved.
+Feng Shui, the Chinese Taoist form of Geomancy, is one of the most comprehensive and well documented explanations.
+It is a very logical system based on the creation and interactions of energy(Qi).
+In pure Classical Feng Shui there is no 'hocus pocus', although symbology and Myth are used (see the footnote on this page). All calculations and suggestions can be explained according to the theory and derived systems outlined in this site.
  
-/* Everything is connected, the planets, the elements and all the living things. What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
-
+/* Everything is connected, the planets, the elements and all the living things.
+In Taoism, there is the concept of a second (stomache) brain, which can be thought of as "gut instinct".					
+In 'new age' speak: 
+What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
+It is important to note that Ones own personal development is the most important aspect of Taoism (covered in greater detail later) and that Feng Shui was     
 ** Feng Shui - General
 The Chinese "Taoists art of Feng Shui is used to determine the best siting and planning of a building for inhabitants.
 [ The design of Palaces seemed to be the primary reason for it, although it then became commonly adopted. ]
