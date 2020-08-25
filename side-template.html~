@@ -154,14 +154,12 @@ p,ul{
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui </b>& Geomancy</span>
 
-<!-- ##### Content Sections ##### -->
+<!-- ##### Sections ##### -->
     
-
-
-<!-- /main content wrapper -->
   </div>
 
 <!-- ##### SCRIPTS ##### -->
+
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";

@@ -2,122 +2,22 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="stylesheet" href="style1.css">
 <style>
-body {
-     font-family:Tahoma, Geneva, sans-serif;
-    /* font-family:Arial,Helvetica, sans-serif; */
-}
-p,ul{
-     line-height: 1.5em;
-}
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 10px; /* Place the button at the bottom of the page */
-  right: 10px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color:rgba(255, 0, 0, 0.7); /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-#submenu {
-    font-size: 1em;
-    color: black;    /* light green #e6ffcc; */
-}
-#ham{
-    margin-right:5px;
-}
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color:#0099ff; /* green  #4CAF50; */
-  overflow-x: hidden;
-  transition: 0.1s;
-  padding-top: 8px;
-}
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 1em;
-  color: #ffffff;
-  display: block;
-  transition: 0.1s;
-}
-.sidenav span{
-  padding: 8px 8px 8px 32px;
-  font-size: 1.2em;
-  color: #000;
-  background-color:#33adff;
-  margin-bottom:8px;
-  display: block;
-}
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-.sidenav .closebtn {
-  cursor:pointer;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 24px;
-  margin:0;
-  padding:8px;
-}
-#main {
-  transition: margin-left .1s;
-  padding: 14px;
-}
-.active{
-    background-color:#ff4d4d;
-}
-#submenu:hover {
-  background-color: #fff; /* Add a background on hover */
-}
-#menu:hover {
-  background-color: #000; /* Add a background on hover */
-}
-
-/* Create two equal columns that floats next to each other */
-.column1 {
-  float: left;
-  width: 55%;
-}
-.column2 {
-  float: left;
-  width: 45%;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 /*  Media response */
 @media screen and (min-width: 850px) {
   #main{ margin-left:250px;} 
   #ham{ display: none;}
   #close{ display: none;}
-  #title{font-size:2.2em}
+  #title{display:none}
+
 }
 @media screen and (max-width: 850px) {
   #main{margin-left:0}
   .column1{width:100%}
   .column2{width:100%}
   #title{font-size:1.4em}
+  .imgsc {width:100%}
 }
 @media screen and (min-width: 1200px) {
   #main{padding-left:45px;padding-right:45px;}
@@ -128,17 +28,17 @@ p,ul{
 
 <!--    ##### NAVIGATION #####     -->
 <div id="mySidenav" class="sidenav">
-  <span><b>Feng Shui </b>& Geomancy</span>
+  <span><a href="side-intro.html"><b>Feng Shui </b>& Geomancy</a></span>
   <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-  <a href="#" class="active">INTRO</a>
+  <a id="menu" href="side-intro.html">INTRO</a>
   <a href="#" id="menu">THEORY</a>
-     <a id="submenu" href="#">- Qi & Taoism</a>
-     <a id="submenu" href="#">- Yin & Yang</a>
-     <a id="submenu" href="#">- 5 Elements</a>
-     <a id="submenu" href="#">- 8 Directions</a>
+     <a id="submenu" href="side-qi.html">- Qi & Taoism</a>
+     <a id="submenu" href="side-yy.html">- Yin & Yang</a>
+     <a id="submenu" href="side-5ele.html">- 5 Elements</a>
+     <a id="submenu" href="side-8dir.html">- 8 Directions</a>
   <a href="#" id="menu">PRACTICE</a>
-     <a id="submenu" href="#">- Siting/Landscape</a>
+     <a id="submenu" href="side-siting.html" class="active">- Siting/Landscape</a>
      <a id="submenu" href="#">- interior</a>
      <a id="submenu" href="#">- Spaces/Portents</a>
      <a id="submenu" href="#">- Horoscope</a>
@@ -154,14 +54,57 @@ p,ul{
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui </b>& Geomancy</span>
 
-<!-- ##### Content Sections ##### -->
-    
+<!-- ##### Sections ##### -->
 
+<div class="row">
+<h1>Siting a Building</h1>
+    <h2>Environmental Forms</h2>
+    <p>
+      The environment in which a site is located and the form of the building is important in a Feng Shui assessment.
+      <br/>
+      The table illustrates how the form is read in relation to the 5 elements. 
+    </p>
+  </div>
+  <div class="row">
+    <p style="text-align:center">
+  <img class="imgsc" src="imgs/env1.jpg">
+    </p>
+</div>
 
-<!-- /main content wrapper -->
+<div class="row">
+    <h2>Typical Watercourse Flows</h2>
+    <p>
+The Water Dragon is an important factor in assessing flows of energy to and from the site. The illustration shows the main watercourse flows. <br><br>
+These also apply to road positions and flows of traffic. A further level of detail can be applied using the 5 Element Cycle.  (for instance, coming in the direction of metal to a fire location would mean that the site is controlling the flow). However the flows are the most important?). Plotting watercourse flows can be accurately done to within 7.5 degrees of accuracy.
+    </p>
+  </div>
+  <div class="row">
+    <p style="text-align:center">
+  <img class="imgsc" src="imgs/watercourses.jpg">
+    </p>
+  </div>
+
+<div class="row">
+    <h2>Water Dragon - example south facing site</h2>
+    <p>
+The diagram below shows simply how to position a water-course to optimum beneficial effect ( for a south facing site).
+<br><br>
+The WATER DRAGON calculation is basically derived using the 5 ELEMENTS CYCLE in respect of directional flows: accuracy is typically to 7.5 degrees.
+<br><br>
+      NB: The energetic interaction at the main entrance is  FIRE Qi ( feng ) flowing towards the site. The watercourse brings an active and newly replenished source of WOOD quality Qi (flowing from the east ). WOOD feeding FIRE is very beneficial (see the 5 element section). The best exit of the watercourse is to the NW (METAL) and underground as FIRE controls METAL.
+    </p>
+  </div>
+  <div class="row">
+    <p style="text-align:center">
+  <img class="imgsc" src="imgs/water_dragon.jpg">
+    </p>
+  </div>
+
+<!-- ##### /end Sections ##### -->
   </div>
 
 <!-- ##### SCRIPTS ##### -->
+
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";

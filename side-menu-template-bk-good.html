@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" href="style.css"> -->
 <style>
 body {
      font-family:Tahoma, Geneva, sans-serif;
@@ -34,9 +33,6 @@ p,ul{
     font-size: 1em;
     color: black;    /* light green #e6ffcc; */
 }
-#ham{
-    margin-right:5px;
-}
 .sidenav {
   height: 100%;
   width: 0;
@@ -46,49 +42,35 @@ p,ul{
   left: 0;
   background-color:#0099ff; /* green  #4CAF50; */
   overflow-x: hidden;
-  transition: 0.1s;
-  padding-top: 8px;
+  transition: 0.5s;
+  padding-top: 60px;
 }
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 1em;
   color: #ffffff;
   display: block;
-  transition: 0.1s;
+  transition: 0.3s;
 }
-.sidenav span{
-  padding: 8px 8px 8px 32px;
-  font-size: 1.2em;
-  color: #000;
-  background-color:#33adff;
-  margin-bottom:8px;
-  display: block;
-}
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
 .sidenav .closebtn {
-  cursor:pointer;
   position: absolute;
   top: 0;
-  right: 0;
-  font-size: 24px;
-  margin:0;
-  padding:8px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 40px;
+  margin-top:0;
 }
+
 #main {
-  transition: margin-left .1s;
+  transition: margin-left .5s;
   padding: 14px;
-}
-.active{
-    background-color:#ff4d4d;
-}
-#submenu:hover {
-  background-color: #fff; /* Add a background on hover */
-}
-#menu:hover {
-  background-color: #000; /* Add a background on hover */
 }
 
 /* Create two equal columns that floats next to each other */
@@ -96,6 +78,7 @@ p,ul{
   float: left;
   width: 55%;
 }
+
 .column2 {
   float: left;
   width: 45%;
@@ -106,62 +89,70 @@ p,ul{
   display: table;
   clear: both;
 }
-/*  Media response */
+
 @media screen and (min-width: 850px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
   #main{ margin-left:250px;} 
   #ham{ display: none;}
   #close{ display: none;}
   #title{font-size:2.2em}
 }
 @media screen and (max-width: 850px) {
-  #main{margin-left:0}
+    #main{margin-left:0}
   .column1{width:100%}
   .column2{width:100%}
-  #title{font-size:1.4em}
+  #title{font-size:1.5em}
 }
 @media screen and (min-width: 1200px) {
-  #main{padding-left:45px;padding-right:45px;}
+    #main{padding-left:50px;padding-right:50px;}
 }
 </style>
 </head>
-<body>
 
+<body>
 <!--    ##### NAVIGATION #####     -->
 <div id="mySidenav" class="sidenav">
-  <span><b>Feng Shui </b>& Geomancy</span>
   <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <a href="#" class="active">INTRO</a>
-  <a href="#" id="menu">THEORY</a>
-     <a id="submenu" href="#">- Qi & Taoism</a>
-     <a id="submenu" href="#">- Yin & Yang</a>
+  <a href="#">INTRO</a>
+  <a href="#">THEORY</a>
+     <a id="submenu" href="#">- Qi(energy)</a>
      <a id="submenu" href="#">- 5 Elements</a>
      <a id="submenu" href="#">- 8 Directions</a>
-  <a href="#" id="menu">PRACTICE</a>
+     <a id="submenu" href="#">- Horoscope</a>
+  <a href="#">PRACTICE</a>
      <a id="submenu" href="#">- Siting/Landscape</a>
      <a id="submenu" href="#">- interior</a>
      <a id="submenu" href="#">- Spaces/Portents</a>
-     <a id="submenu" href="#">- Horoscope</a>
-  <a href="#" id="menu">Thoughts</a>
+     <a id="submenu" href="#">- Putting it together</a>
+  <a href="#">Thoughts</a>
      <a id="submenu" href="#">- Advanced</a>
      <a id="submenu" href="#">- Personal Practice</a>
      <a id="submenu" href="#">- Reading List</a>
   <a href="#">@contact</a>
 </div>
-
+<!-- ###### /NAVIGATION ###### -->
 <div id="main">
-<!-- ###### TOP ^ UP BUTTON ###### -->
+<!-- ###### TOP BUTTON ###### -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui </b>& Geomancy</span>
+    <span id="ham" style="font-size:1em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui </b>& Geomancy</span>
+<!-- ###### TOP BUTTON ###### -->
 
-<!-- ##### Content Sections ##### -->
-    
-
-
-<!-- /main content wrapper -->
+<div class="row">
+  <div class="column1">
+<p>
+  </p>
+</div>
+  
+  <div class="column2">
+<p style="text-align:center" >
+<img alt="Planet Earth" src="imgs/world.jpg"/>
+</p>
+  </div>
   </div>
 
 <!-- ##### SCRIPTS ##### -->
+
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -173,7 +164,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
-
 <script>
 function myFunction(x) {
   if (x.matches) { // If media query matches

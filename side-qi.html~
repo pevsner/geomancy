@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css">
+<style>
+/*  Media response */
+@media screen and (min-width: 850px) {
+  #main{ margin-left:250px;} 
+  #ham{ display: none;}
+  #close{ display: none;}
+  #title{display:none}
+
+}
+@media screen and (max-width: 850px) {
+  #main{margin-left:0}
+  .column1{width:100%}
+  .column2{width:100%}
+  #title{font-size:1.4em}
+}
+@media screen and (min-width: 1200px) {
+  #main{padding-left:45px;padding-right:45px;}
+}
+</style>
+</head>
+<body>
+
+<!--    ##### NAVIGATION #####     -->
+<div id="mySidenav" class="sidenav">
+  <span><a href="side-intro.html"><b>Feng Shui </b>& Geomancy</a></span>
+  <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <a id="menu" href="side-intro.html">INTRO</a>
+  <a href="#" id="menu">THEORY</a>
+     <a id="submenu" href="side-qi.html" class="active">- Qi & Taoism</a>
+     <a id="submenu" href="#">- Yin & Yang</a>
+     <a id="submenu" href="#">- 5 Elements</a>
+     <a id="submenu" href="#">- 8 Directions</a>
+  <a href="#" id="menu">PRACTICE</a>
+     <a id="submenu" href="#">- Siting/Landscape</a>
+     <a id="submenu" href="#">- interior</a>
+     <a id="submenu" href="#">- Spaces/Portents</a>
+     <a id="submenu" href="#">- Horoscope</a>
+  <a href="#" id="menu">Thoughts</a>
+     <a id="submenu" href="#">- Advanced</a>
+     <a id="submenu" href="#">- Personal Practice</a>
+     <a id="submenu" href="#">- Reading List</a>
+  <a href="#">@contact</a>
+</div>
+
+<div id="main">
+<!-- ###### TOP ^ UP BUTTON ###### -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui </b>& Geomancy</span>
+
+<!-- ##### Sections ##### -->
+    
+<h1>Qi</h1>
+<div class="row">
+  <div class="column1"> 
+    <p>
+     <b> Qi</b>, is energy.
+<br>
+From <b>coarse</b> (physical things, atmosphere) to the very <b>subtle</b> (beyond the ethereal). 
+    </p>
+  </div>
+  <div class="column2">
+    <p style="text-align:center">
+  <img src="imgs/qi.jpg">
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>Taoism</h2>
+    <p>
+      <b>Taoism</b> is ..?
+      <br>
+      (<b>Tao</b>=way, <b>ism</b> = practice / principles)
+      <br>
+      <br>
+      <b>The Tao</b>=The way to .....? (advancement)
+      <br>
+      As I best understand it....<i> (translations vary, and words are misinterpreted)</i>
+      <br>
+      It's not a religion, more like, a blueprint to evolve.
+      <br>
+      Apparently originating from the actions and writings <i>(under duress)</i> of Lao Tzu.
+      <br>
+      (or credited to him because he was the first one able to write it).
+      <br></br>
+      <b>Lao Tzu</b> wrote the  <b>"Tao Te Ching"</b> sometime between 6 BC and 3 BC.
+      <br>
+      It is poetic in style, concise and contains many layers of detailed insight.
+      <br>
+      His later work, the <b>"Hua Hua Ching"</b>, contains more specific information on energetic
+      interactions. <i>(see reading list for details)</i>.
+      <br><br>
+      Taoism realises that everything is <b>connected</b>, the <b>planets</b>, the <b>elements</b> and all the <b>living</b>
+      things. (from the very big to the very small (subtle)). "Strings"?<br>
+    ***<b>EDIT</b>  Common elemental forces and attributes that link everything in the cosmos are "grouped" into general categories, and a methodology the benificially harnessing of them ****** .
+      <br><br>
+      By connecting to these forces through Meditation and Taoist practices such as <b>Qi Gong</b>
+      (energy work), <b>Tai Qi Chuan</b> (the way energy practice) and Internal Alchemy one is
+      able to increase physical and subtle energy levels and build a strong platform for spiritual
+      development.
+      <br>
+      Simplistically it is like connecting the positive (heaven) and negative (earth)
+      electric leads to give power.
+      <br><br>
+      Grounding and rootedness to the earth is the launch pad to the spiritual.
+      The more grounded you become the subtler the energies you experience.
+      <br><br>
+      The subtler the energies you absorb, the stronger you become. Spiritual development is a
+      natural outcome. Nothing is forced because you have a firm foundation.
+    </p>
+  </div>
+  <div class="column2">
+    <p style="text-align:center">
+<br><br>
+<i>"The way that can be spoken of 
+<br>
+is not the constant way. 
+<br><br>
+
+The name that can be named 
+<br>
+is not the constant name. 
+<br><br>
+
+The nameless was the beginning 
+<br>
+of heaven and earth. 
+<br><br>
+
+The named was the mother 
+<br>
+of the myriad creatures." 
+</i>
+<br><br>
+Lao Tzu. 
+<br>
+Tao Te Ching.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>Absorption</h2>
+    <p>
+      The diagram illustrates the main subtle forces that effect us. We absorb these forces
+      naturally to sustain life.
+      <br><br>
+      <b style="color:red;">Heaven energy.</b><br>
+      Experienced as a  warm energy spiralling down from the heavens. It is the effect of planetary
+      movement upon us and is Yang in quality.
+      <br><br>
+      <b style="color:magenta;">Cosmic Particle Dust.</b>
+      <br>
+      Primarily absorbed through a spot in the middle of the forehead ( third eye chakra). Contains
+      unlimited information.
+      <br><br>
+      <b style="color:blue;">Earth Force.</b>
+      <br>
+      Experienced as a cool energy spiralling up from the earth. The healing quality comes from the
+      special relationship between the earth and the moon. Yin in quality.
+    </p>
+  </div>
+  <div class="column2">
+    <p style="text-align:center">
+  <img src="imgs/woman_forces1.jpg">
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column1"> 
+    <h2>The Microcosmic Orbit</h2>
+    <p>
+      With practice, one can develop the circulation of Qi around the Microcosmic Orbit to great
+      personal benefit. The greater the circulation the more easily external energy is drawn into
+      the cycle and the stronger one becomes.
+      <br><br>
+      I do suggest that you should clear your channels (correct vertical structural alignment)
+      sufficiently to be able to fully feel the energies before circulating. You will know when.
+      <br><br>
+      There are many sources of information available which will give you instruction on the
+      practice of circulating internal Qi.
+      <br><br>
+      I would recommend you look at the work of Mantak Chia (see reading list) as he provide
+      perhaps the most comprehensive explanations of Chinese Metaphysics and Taoist practices
+      (Alchemy, Qi Gong) available in English.
+      <br><br>
+      Governor channel runs up the middle of the back.
+      <br><br>
+      Functional channel runs down the chest.
+      <br><br>
+      (Connecting the two channels is achieved by pressing the tongue to the top of the palate and pulling up the anus).
+      <br><br>
+    </p>
+  </div>
+  <div class="column2">
+    <p style="text-align:center">
+<br><br>
+<br><br>
+  <img src="imgs/microcosmic.jpg">
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column1"> 
+    <h2><i>"Comment"</i></h2>
+    <p>
+Feng Shui practice considers the way that humans are effected by the subtle forces, it can help to improve ones relationship with the environment.
+<br><br>
+<i>NB. for anyone learning about Feng Shui, the realization that we connect to the source just by being aware that it is there. i.e..If we look to the stars , we are connected. If we look to the stars with awareness we are conscious. It is easy in modern urban life to lose perspective of the greater picture. If you live in a small flat in a large city it is not that easy to remember that there is earth below you, stars above, and creatures and plants . 
+</i>
+Using and/or the study of Feng Shui is a very good way to reconnect and be reminded of the cycle of things.
+<br><br>
+    </p>
+  </div>
+  <div class="column2">
+    <p style="text-align:center">
+<br><br>
+  <img src="imgs/bamboo1.jpg">
+    </p>
+  </div>
+  </div>
+
+<!-- ##### SCRIPTS ##### -->
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<script>
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+  document.getElementById("mySidenav").style.width = "0";
+  } else {
+  document.getElementById("mySidenav").style.width = "250px";
+  }
+}
+
+var x = window.matchMedia("(max-width: 850px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+</script>
+   
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html> 
