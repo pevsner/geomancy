@@ -4,20 +4,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style1.css">
 <style>
+
 /*  Media response */
 @media screen and (min-width: 850px) {
   #main{ margin-left:250px;} 
   #ham{ display: none;}
   #close{ display: none;}
   #title{display:none}
-
 }
 @media screen and (max-width: 850px) {
   #main{margin-left:0}
   .column1{width:100%}
   .column2{width:100%}
   #title{font-size:1.4em}
-  .imgsc {width:100%}
+  .tableText{font-size: 0.8em;}
 }
 @media screen and (min-width: 1200px) {
   #main{padding-left:45px;padding-right:45px;}
@@ -31,14 +31,14 @@
   <span><a href="side-intro.html"><b>Feng Shui </b>& Geomancy</a></span>
   <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-  <a id="menu" href="side-intro.html">INTRO</a>
-  <a href="#" id="menu">THEORY</a>
+  <a id="menu" href="side-intro.html" >INTRO</a>
+  <a href="side-qi.html" id="menu">THEORY</a>
      <a id="submenu" href="side-qi.html">- Qi & Taoism</a>
      <a id="submenu" href="side-yy.html">- Yin & Yang</a>
      <a id="submenu" href="side-5ele.html">- 5 Elements</a>
-     <a id="submenu" href="side-8dir.html">- 8 Directions</a>
+     <a id="submenu" href="side-8dir.html" class="active">- 8 Directions</a>
   <a href="#" id="menu">PRACTICE</a>
-     <a id="submenu" href="side-siting.html" class="active">- Siting/Landscape</a>
+     <a id="submenu" href="#">- Siting/Landscape</a>
      <a id="submenu" href="#">- interior</a>
      <a id="submenu" href="#">- Spaces/Portents</a>
      <a id="submenu" href="#">- Horoscope</a>
@@ -47,6 +47,7 @@
      <a id="submenu" href="#">- Personal Practice</a>
      <a id="submenu" href="#">- Reading List</a>
   <a href="#">@contact</a>
+  <br/>
 </div>
 
 <div id="main">
@@ -56,67 +57,21 @@
 
 <!-- ##### Sections ##### -->
 
-<h1>Siting a Building</h1>
 <div class="row">
-    <h2>Environmental Forms</h2>
+<h1>Interior Design</h1>
+  <div class="column1"> 
+    <h3>Assement</h3>  
     <p>
-      The environment in which a site is located and the form of the building is important in a Feng Shui assessment.
-      <br/>
-      The table illustrates how the form is read in relation to the 5 elements. 
+      What you see is what you get.
     </p>
-  </div>
-  <div class="row">
-    <p style="text-align:center">
-  <img class="imgsc" src="imgs/env1.jpg">
-    </p>
-</div>
-
-  <div class="row">
-<p>A calculation of the suitability of the building 
-            and its function/s to its environment is done using 
-            the 5 element cycle. </p>
-            
-            <p >e.g.. An EARTH building (terrace) 
-            in a FIRE environment (peaked mountains or facing 
-            a gable end building/s) is very beneficial for living 
-            and working - FIRE feeds EARTH.</p><p><i>NB. Some environmental 
-            relationships provide good short term interactions 
-            but have bad long term repercussions.</i></p>
-	    </div>
-<div class="row">
-    <h2>Typical Watercourse Flows</h2>
-    <p>
-The Water Dragon is an important factor in assessing flows of energy to and from the site. The illustration shows the main watercourse flows. <br><br>
-These also apply to road positions and flows of traffic. A further level of detail can be applied using the 5 Element Cycle.  (for instance, coming in the direction of metal to a fire location would mean that the site is controlling the flow). However the flows are the most important?). Plotting watercourse flows can be accurately done to within 7.5 degrees of accuracy.
-    </p>
-  </div>
-  <div class="row">
-    <p style="text-align:center">
-  <img class="imgsc" src="imgs/watercourses.jpg">
-    </p>
+  <div class="column2">
+  <p style="text-align:center;">
   </div>
 
-<div class="row">
-    <h2>Water Dragon - example south facing site</h2>
-    <p>
-The diagram below shows simply how to position a water-course to optimum beneficial effect ( for a south facing site).
-<br><br>
-The WATER DRAGON calculation is basically derived using the 5 ELEMENTS CYCLE in respect of directional flows: accuracy is typically to 7.5 degrees.
-    </p>
-  </div>
-  <div class="row">
-    <p style="text-align:center">
-  <img class="imgsc" src="imgs/water_dragon.jpg">
-    </p>
   </div>
   
-  <div class="row">
-    <p>
-      NB: The energetic interaction at the main entrance is  FIRE Qi ( feng ) flowing towards the site. The watercourse brings an active and newly replenished source of WOOD quality Qi (flowing from the east ). WOOD feeding FIRE is very beneficial (see the 5 element section). The best exit of the watercourse is to the NW (METAL) and underground as FIRE controls METAL.
-    </p>
-    </div
 <!-- ##### /end Sections ##### -->
-  </div>
+</div>
 
 <!-- ##### SCRIPTS ##### -->
 

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+    <style>
+
+      /*  Media response */
+      @media screen and (min-width: 850px) {
+	  #main{ margin-left:250px;} 
+	  #ham{ display: none;}
+	  #close{ display: none;}
+	  #title{font-size:2.2em}
+      }
+      @media screen and (max-width: 850px) {
+	  #main{margin-left:0}
+	  .column1{width:100%}
+	  .column2{width:100%}
+	  #title{font-size:1.4em}
+      }
+      @media screen and (min-width: 1200px) {
+	  #main{padding-left:45px;padding-right:45px;}
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--    ##### NAVIGATION #####     -->
+    <div id="mySidenav" class="sidenav">
+      <span>
+	<a href="side-intro.html">
+	  <b>Feng Shui
+	  </b>& Geomancy
+	</a>
+      </span>
+      <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+      </a>
+
+      <a id="menu" href="side-into.html" class="active">INTRO
+      </a>
+      <a href="side-qi.html" id="menu">THEORY
+      </a>
+      <a id="submenu" href="side-qi.html">- Qi & Taoism
+      </a>
+      <a id="submenu" href="side-yy.html">- Yin & Yang
+      </a>
+      <a id="submenu" href="side-5ele.html">- 5 Elements
+      </a>
+      <a id="submenu" href="side-8dir.html">- 8 Directions
+      </a>
+      <a href="#" id="menu">PRACTICE
+      </a>
+      <a id="submenu" href="#">- Siting/Landscape
+      </a>
+      <a id="submenu" href="#">- interior
+      </a>
+      <a id="submenu" href="#">- Spaces/Portents
+      </a>
+      <a id="submenu" href="#">- Horoscope
+      </a>
+      <a href="#" id="menu">Thoughts
+      </a>
+      <a id="submenu" href="#">- Advanced
+      </a>
+      <a id="submenu" href="#">- Personal Practice
+      </a>
+      <a id="submenu" href="#">- Reading List
+      </a>
+      <a href="#">@contact
+      </a>
+    </div>
+
+    <div id="main">
+      <!-- ###### TOP ^ UP BUTTON ###### -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top
+      </button>
+      <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;
+      </span>
+      <span id="title";>
+	<b>Feng Shui
+	</b>& Geomancy
+      </span>
+
+      <!-- ##### Sections ##### -->
+      
+      <div class="row">
+	<div class="column1">
+	  <p>
+	    This site explains Chinese geomancy called Taoist Classical Feng Shui.
+	    <br/>
+	    It covers the basic theory and includes practical design suggestions. 
+	  </p>
+	  <p>
+	    Please use it as a resource to discover and implement change.
+	    <br/>
+	    <i>(With the proviso that this is my own interpretation.)
+	    </i>
+	  </p>
+	</div>
+	
+	<div class="column2">
+	  <p style="text-align:center" >
+	    <img alt="Planet Earth" src="imgs/world.jpg"/>
+	  </p>
+	</div>
+      </div>
+      
+      <div class="row">
+	<h2> Introduction
+	</h2>
+	<div class="column1">
+	  <p>
+	    Geomancy is the reading of the Earths energies (which can also include planetary movement) and how we are affected by them.
+	  </p>
+	  <ul>
+	    <li>
+	      <b>geo
+	      </b>=earth.
+	    </li>
+	    <li>
+	      <b>mancy
+	      </b>=divination or reading.
+	    </li>
+	  </ul>
+	  <p>
+	    Most Ancient Cultures, (for instance:Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan), have some tradition of geomancy.
+	  </p>
+	  <p>
+	    Feng Shui, the Chinese Taoist form of Geomancy is, perhaps, the most sophisticated, comprehensive and well documented type.
+	    It is a very logical system based on observations and explanations of energy(Qi) creation and interaction.
+	  </p>
+	  <p>
+	    <b>Taoism
+	    </b> emerged from the thoughts and writings of
+	    <b>'Lao Tzu'
+	    </b> who most famously accredited book is the
+	    <b>'Tao te ching'
+	    </b>. His insight into the workings of the cosmos and living in harmony formed the basis of all subsequent Taoist practices including martial arts like Tai Qi Chuan and Qi Gong, Medicine (Acupuncture, Herbal remedies) and Internal Alchemy.
+	    <br/>
+	    Feng Shui was developed to balance environments for harmonious living.  
+	    <br/>
+	    <i>NB. Origionally for the emperor, later adopted more widely.
+	    </i> 
+	  </p>
+	</div>
+	<div class="column2">
+	  <p style="text-align:center" >
+	    <img alt="Energy Absorbtion" src="imgs/woman_forces1.jpg"/>
+	    <br/>
+	    <i>Heavenly(stars),
+	      <br/>
+	      Cosmic Particle dust,
+	      <br/>
+	      Earthly energies.
+	    </i>
+	  </p>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="column1"> 
+	  <p>
+	    <strong>Feng (wind)
+	    </strong> is an invisible fast moving energy (Qi) flowing, like wind, above the ground and filling every space there is.
+	    <br/> 
+	    Imagine 'Feng' as electromagnetically charged particles in the atmosphere.
+	    Its characteristics are dependent upon direction of flow.
+	  </p>
+	  <strong>Shui (water)
+	  </strong> is an invisible energy/force inherent in physical things (mass). It is found within the Earth and is also present within the structure of buildings and all physical things.
+	  <i>Its influence is dependant on scale.
+	  </i>
+	  Imagine 'Shui' as thick viscous invisible energy moving very slowly within the Earth. It can partly be described as a gravitational force.
+	  <i>It also affects and is affected by direction.
+	  </i>
+</p>
+</div>
+<div class="column2">
+  <p style="text-align:center">
+    Feng
+    <i>( wind, above )
+    </i>
+    <br>
+    <img src="imgs/red_blue.jpg">
+    <br/>
+    Shui
+    <i>( water, below )
+    </i>
+</div>
+</div>
+
+<div class="row">
+  <div class="column1"> 
+    <p>
+      <b>Qi
+      </b> (energy), its creation, qualities and interactions is key.
+      <br/>
+      <br/> 
+      Taoists identified 5 general types of energy(Qi) called the
+      <strong>5 elements
+      </strong> and found that
+      <b>8 Directions
+      </b> (Bagua) affected them.
+      <br/>
+      <br/>
+      The Art of Feng Shui aims to balance and maximize the potential of these subtle environmental energies to benefit occupants.
+      <br/>
+      <br/>
+      By reading the energies present, interactions can be calculated and advise on suitabilty, countering malign influences, planning layout, and decor given.
+      <br/>
+      <br/>
+
+    </p>
+  </div>
+  <div class="column2">
+    <p style="text-align:center">
+      <img src="imgs/bagua1_small.jpg">
+      <br/>
+      <i>Bagua (8 directions)
+      </i>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column1">
+    <p>
+      There are a number of Schools of Feng Shui: The Form School, The Compass School, The Black Sect School, The Flying Star School & The Classical School.
+      <br/>
+      <br/>
+      The
+      <strong>Classical School
+      </strong> is a combination of, primarily, the 'Form' and 'Compass' Schools. This is what I cover on this site.
+      <ul>
+	In short, an assessment includes:
+	<li>
+	  <strong>Form:
+	  </strong> How the topography of the surroundings and the shape of the building affects the quality and flow of energy(Qi)
+	</li>
+	<li>
+	  <strong>Compass orientation:
+	  </strong> How direction of flow affects energy(Qi).
+	</li>
+	<li>
+	  <strong>Reading
+	  </strong> of the above interactions, referencing portents derived from 'The Five Element' cycle.Suggestions for external and internal planning, placement of furniture, color usage and more detailed changes.
+	</li>
+	<li>
+	  <strong>Counteract Malign influences.
+	  </strong> 
+	<li>
+	  <strong>Personal Horoscope:
+	  </strong> This can be included as another level of detail to fine tune a consultation. 
+	</li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="column2">
+    <p style="text-align:center" >
+      <br/>
+      <img alt="Lo Pan" src="imgs/compass.jpg"/>
+      <br/>
+      <i>Lo Pan,
+	<br/>
+	magnetic compass,
+      </i>
+    </p>
+  </div>
+</div>
+
+<div class="row" >
+  <hr/>
+  <p>
+    <i>Please look at the more detailed sections and the reading list to learn more.
+  </p>
+  <h3>Footnote
+  </h3>
+  <i> Everything is connected, the planets, the elements and all the living things.
+    What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential.
+  </i>
+  <br/>
+  <br/>
+</div>
+
+</div>
+
+<!-- ##### SCRIPTS ##### -->
+
+<script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+  }
+</script>
+
+<script>
+  function myFunction(x) {
+      if (x.matches) { // If media query matches
+	  document.getElementById("mySidenav").style.width = "0";
+      } else {
+	  document.getElementById("mySidenav").style.width = "250px";
+      }
+  }
+
+  var x = window.matchMedia("(max-width: 850px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) // Attach listener function on state changes
+</script>
+
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	  mybutton.style.display = "block";
+      } else {
+	  mybutton.style.display = "none";
+      }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+</script>
+</body>
+</html> 
