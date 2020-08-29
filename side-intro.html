@@ -8,18 +8,25 @@
 /*  Media response */
 @media screen and (min-width: 850px) {
   #main{ margin-left:250px;} 
+    body{margin:5px;}
   #ham{ display: none;}
   #close{ display: none;}
   #title{font-size:2.2em}
+  #imgsc{max-width:240px}
 }
 @media screen and (max-width: 850px) {
   #main{margin-left:0}
   .column1{width:100%}
   .column2{width:100%}
   #title{font-size:1.4em}
+  #imgsc{max-width:280px}
 }
 @media screen and (min-width: 1200px) {
   #main{padding-left:45px;padding-right:45px;}
+}
+@media screen and (max-width: 400px) {
+    p{margin-top:5px;margin-left:0;margin-right:0;margin-bottom:5px;}
+    body{margin:0;}
 }
 </style>
 </head>
@@ -58,9 +65,10 @@
 <div class="row">
   <div class="column1">
 <p>
-This site explains Chinese geomancy called Taoist Classical Feng Shui.
-<br/>
-It covers the basic theory and includes practical design suggestions. 
+This site explains the Chinese Taoist form of geomancy called Classical Feng Shui.
+<p/>
+<p>
+It covers the basic theory and implimentation including practical design suggestions. I also outline some similarities with other forms of geomancy and modern science. 
 </p>
 <p>
   Please use it as a resource to discover and implement change.
@@ -102,7 +110,7 @@ Feng Shui was developed to balance environments for harmonious living.
 </div>
   <div class="column2">
 <p style="text-align:center" >
-<img alt="Energy Absorbtion" src="imgs/woman_forces1.jpg"/>
+<img id="imgsc" alt="Energy Absorbtion" src="imgs/woman_forces1.jpg"/>
 <br/>
 <i>Heavenly(stars),
 <br/>
@@ -156,7 +164,7 @@ By reading the energies present, interactions can be calculated and advise on su
   </div>
   <div class="column2">
     <p style="text-align:center">
-  <img src="imgs/bagua1_small.jpg">
+  <img alt="" src="imgs/bagua1_small.jpg"/>
   <br/>
  <i>Bagua (8 directions)</i>
     </p>
