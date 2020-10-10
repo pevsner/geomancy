@@ -6,6 +6,8 @@ div{ margin:0;
    }
 p,ul{
      line-height: 1.3em;
+     margin-right: 2px;
+     margin-left:2px;
 }
 h2{
     margin-bottom: 0;
