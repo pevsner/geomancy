@@ -1,8 +1,7 @@
 * DONE Welcome
 
 This site explains Taoist Classical Geomancy or Feng Shui.
-It covers theory and includes practical design suggestions.
-
+It covers basic theory and includes practical useage and design suggestions.
 /* Please use it as a resource to discover and implement change.
    With the proviso that this is my own interpretation.*/
 ** Introduction
@@ -11,12 +10,24 @@ geo=earth, mancy=divination or reading.
 
 Most Ancient Cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have a history of some form of geomancy.
 
-Feng Shui, the Chinese Taoist form of Geomancy, is one of the most comprehensive and well documented explanations.
-It is a very logical system based on the creation and interactions of energy(Qi).
-In pure Classical Feng Shui there is no 'hocus pocus', although symbology and Myth are used (see the footnote on this page). All calculations and suggestions can be explained according to the theory and derived systems outlined in this site.
+The aim is advancement. Advancement can only happen when connection to the "greater" external forces is natural and balanced.
+A good image to use is: you standing on the earth.
+Yang (red, fire) spiralling down through the top of your head.
+Yin (blue, water) spiralling up through the soles of your feet.
+Cosmic Particle dust spiralling into your third eye.
+All of these energies being mixed and spiralled in your Tandien (just below your belly button).
+The mixing of Yang(fire) and Yin(water) creating "steam" Qi.
 
-/* Everything is connected, the planets, the elements and all the living things.
-In Taoism, there is the concept of a second (stomache) brain, which can be thought of as "gut instinct".
+Connecting to external Forces
+Taoist, Classical School (described below) Feng Shui is the most comprehensive and well documented form of Geomancy.
+It is a logical system based on energy(Qi) creation and interactions, primarily the
+propotions of Yang (+'ve charge) and Yin (-'ve charge).
+In Classical Feng Shui there is no 'hocus pocus', however Symbology and Myth are used to illustrate technical detail in an easily digestible way. (see the footnote on this page).
+All calculations and implementations are based on theory and the derived systems.
+
+/* Everything is connected, the Planets, the Elements and all the Living Things.
+In Taoism, there is also the concept of a second (stomache) brain or "gut instinct" which
+is a more intuitive and holistic type of intelligence.
 In 'new age' speak:
 What we experience externally reflects our internal universe. Hence our environment is a reflection of ourselves and vice versa. Balancing the external environment has a direct effect upon our internal condition and helps us to realize our potential. */
 It is important to note that Ones own personal development is the most important aspect of Taoism (covered in greater detail later) and that Feng Shui was
@@ -80,8 +91,6 @@ I will go into this later on.
 
 A Magnetic Compass, known as a "Lo Pan", is used to determine site/space orientation, the energies at play and interactions. Qi has different characteristics dependant upon direction ( of movement ).
 /* please refer to the 8 Directions section of this site for details. */
-
-
 ** Assessment
 Assessment is based on orientation, a personal reading  and other general observations which are outlined below.
 
@@ -132,7 +141,7 @@ The *'Western Life'* directions are NE,SW,W & NW and this is symbolised by the W
 
 * TODO Theory
 ** WuQi
-   WuQi is the orignal source from which the cosmos was and is born/reborn.
+WuQi is the orignal source from which the cosmos was and is born/reborn.
 It is a unity, a single thing, not of the physical cosmos.
 /* scientists might call it dark matter, the god particle, or indeed anti-matter. However one describes it, if at all right, it is "nothingness" */
 
