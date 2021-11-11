@@ -1,27 +1,33 @@
-* DONE Welcome
+#+TITLE:FENG SHUI & GEOMANCY
+#+AUTHOR:Adrian
+#+Description: basic text for web site
+* TODO Welcome
 
 This site explains Taoist Classical Geomancy or Feng Shui.
 It covers basic theory and includes practical useage and design suggestions.
 /* Please use it as a resource to discover and implement change.
-   With the proviso that this is my own interpretation.*/
+   With the proviso that this is my own interpretation, and thus maybe incorrect*/
 ** Introduction
-Geomancy is the reading of the Earths energies (which can also include planets) and how we are affected by them.
+Geomancy is the reading of the Earths energies (which may include planets) and how we they affect us.
 geo=earth, mancy=divination or reading.
 
 Most Ancient Cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) have a history of some form of geomancy.
 
-The aim is advancement. Advancement can only happen when connection to the "greater" external forces is natural and balanced.
-A good image to use is: you standing on the earth.
-Yang (red, fire) spiralling down through the top of your head.
-Yin (blue, water) spiralling up through the soles of your feet.
-Cosmic Particle dust spiralling into your third eye.
-All of these energies being mixed and spiralled in your Tandien (just below your belly button).
-The mixing of Yang(fire) and Yin(water) creating "steam" Qi.
+*NB* The aim is advancement.
+Advancement can only happen when connection to the "greater" external forces is present, natural and balanced.
+NB. Who completely knows what "advancement" is. Each step reveals more, and it makes sense that to transcend involves more than you own self-contained physical reality.
+I find a good visualisation to stay focused on the core focus of advancement is:
+You standing on the earth.
+i. Yang energy (red, fire) spiralling down through the top of your head.
+ii. Yin energy (blue, water) spiralling up from the Earths core through the soles of your feet.
+iii. Cosmic Particle dust spiralling into your third eye.
+iv. All of these energies being mixed and spiralled in your Tandien (just below your belly button).
+v. The mixing of Yang(fire) and Yin(water) creating "steam" Qi.
 
-Connecting to external Forces
+It is all about realising the existence of, and connecting with, external Forces.
 Taoist, Classical School (described below) Feng Shui is the most comprehensive and well documented form of Geomancy.
 It is a logical system based on energy(Qi) creation and interactions, primarily the
-propotions of Yang (+'ve charge) and Yin (-'ve charge).
+proportions of Yang (+'ve charge) and Yin (-'ve charge).
 In Classical Feng Shui there is no 'hocus pocus', however Symbology and Myth are used to illustrate technical detail in an easily digestible way. (see the footnote on this page).
 All calculations and implementations are based on theory and the derived systems.
 
@@ -33,17 +39,22 @@ What we experience externally reflects our internal universe. Hence our environm
 It is important to note that Ones own personal development is the most important aspect of Taoism (covered in greater detail later) and that Feng Shui was
 ** Feng Shui - General
 The Chinese "Taoists art of Feng Shui is used to determine the best siting and planning of a building for inhabitants.
-[ The design of Palaces seemed to be the primary reason for it, although it then became commonly adopted. ]
+[ The design of Emperors Palaces is documented as the primary reason for it's development, although it later became commonly adopted. ]
 
 Feng Shui theory is based on Taoist understanding of universal energy exchanges, mainly derived from the writings of Lao Tzu (the "Tao Te Ching" and "Hua Hua Ching") and the "I Ching" (the classic "book of change"). Other ideas were also absorbed over time as it developed.
+
+It is important to understand that the goal of Taoism is personal advancement. Balancing and maximising environmental energies by implementing Feng Shui principals is one helpful part but not exclusive in the pursuit of transcendence. In fact ones personal development through Taoist Martial Arts helps in awareness of the energies and their effect and influence.
+Feng Shui alone is beneficial. However using it as a stepping stone to discover Taoist
+Philosophy and subsequently engage in Martial Art (Tai Qi, Qi Gong) practices will bring more benefit.
+
 The underlying theory is the same for all Taoist practices including Tai Qi Chuan, Qi Gong, Accupuncture and Internal Alchemy. It is based on the energy exchanges between humans and the environment (from planetary movement, larger landscape, close proximity, to very small internal spaces). Horoscopes of individuals are also calculated to assertain suitablity.
 
-Feng Shui is about balancing Qi (energy) so residents can live in harmony with the environment.
+Feng Shui is about balancing Qi (energy) so residents can live in harmony with the environment. Including the external supply of Qi to the site and internal circulation.
 
 Recieve a nice flow of energy to the building from the larger landscape, not too fast to cause harm, not too slow to be stagnant.
 To be positioned in balance with the occupants.
 
-From: recieving a good flow of energy from the larger topographical surroundings, to internal flows of energy circulating to all rooms, to the fine positioning of objects.
+From: receiving a good flow of energy from the larger topographical surroundings, to internal flows of energy circulating to all rooms, to the fine positioning of objects.
 
 Qi is the, generalised, Chinese word for energy: from Heavenly ( planetary) to Earthly ( physical ), coarse to subtle.
 *WuQi, TaiQi, Yin&Yang, 5 elemnents, 8 directions, 64 hexigrams,
@@ -72,12 +83,14 @@ There are a number of different Schools of Feng Shui. The Form School, Compass S
 The Classical School was an almagam of the Form and Compass Schools and is what I am explaning on this website.
 
 ** Feng Shui (definition)
-Literal translation - Wind (&) Water
+The literal translation of Feng Shui is - Wind (&) Water.
 
-Feng (wind) is energy (qi) that flows above the ground and occupies every "space" there is (totally filling the void of the physical world), it flows as wind, and is fast moving. It's characteristics are dependent upon the direction in which it flows and the environment it occupies. It can be partially described as electromagnetically charged particles in the atmosphere.
+Feng (wind) is energy (qi) that flows above the ground and fills every "space" there is.
+It flows as wind, and whilst can move at any speed, relative to Shui (energy inherent in the earth) can be described as fast moving.
+It's characteristics and interactions are dependent upon the environment it occupies and the direction in which it flows. It can partially be described as electromagnetically charged particles in the atmosphere.
 
-Shui (water) is energy (qi) that is contained within the earth and (by connection with) inherent in the structure of a building (all mass), it is slow moving.
-It is experienced as a cool blue energy, hence being called water, it is essentially gravitational force.
+Shui (water) is fluid energy (qi) contained within the earth and (by connection with) inherent in the structure of a building (all mass), it is slow moving.
+It is experienced as a cool blue energy, hence being called water, it is essentially but not exclusively gravitational force.
 
 /* NB There is also another main force called "cosmic particle dust", a more ethereal force, basically stardust". This force seems not to be used in Feng Shui assesments but is integral in the Martial Arts.
 
@@ -87,9 +100,10 @@ It should be noted that although there are many variations, essentially, in term
 A building individual and/or partner with the same cycle as your personal ( horoscope ) reading is most suited.
 I will go into this later on.
 `
-** Aplication
+** Application
 
-A Magnetic Compass, known as a "Lo Pan", is used to determine site/space orientation, the energies at play and interactions. Qi has different characteristics dependant upon direction ( of movement ).
+A Magnetic Compass("Lo Pan"), is used to determine site and internal spaces orientation, energies at play, interactions and portents(readings).
+Qi has different characteristics dependant upon direction ( of movement ).
 /* please refer to the 8 Directions section of this site for details. */
 ** Assessment
 Assessment is based on orientation, a personal reading  and other general observations which are outlined below.
@@ -101,11 +115,11 @@ Always consider the macro (larger) environment first as this is the main feed of
 
 ** Feng Shui (key aims)
 
-It Should be noted that balancing the site for the Qi present is most important.
-Moving or substansial structural changes might be beyond the scope of the inhabitants at the time.
-Even if the residents are not suited on the "cycles" it is still benificial to maximize the potential.
-
-It may be that, for the time being, the occupants are not suited to the site, and are not currently able to move immediately. Really balancing ones own qi is the most important.
+It Should be noted that balancing the Site, of the building, for the energies(Qi) present is most important.
+Moving location (which may be the considered advise) or substantial structural changes might be beyond the scope of inhabitants at the time.
+Even if residents are found not to be suited to a location and building, after a horoscope reading, it is still benificial to balance the environment and maximize the energetic potential.
+Nb. The less fixed you are in a location the less effect the environment has on you. Thus a nomad doesn't have to bother with Feng Shui.
+Balancing ones own Qi is the priority.
 
 To determine the best site/building for individuals.
 To balance the property to suit the occupants, and maximize its potential.
@@ -137,7 +151,6 @@ The Green Dragon is a great mythological figure in traditional Chinese culture t
 
 The *'Western Life'* directions are NE,SW,W & NW and this is symbolised by the White Tiger. You may have heard of the Dragon and Tiger (left and right) side of a building and Dragon and Tiger shaped hill formations.
 */
-
 
 * TODO Theory
 ** WuQi
@@ -203,8 +216,6 @@ The twelve Zodiac signs (12 year & 12 month cycle) are listed in order.
 /* N.B. These zodiac Animals are symbolic of the energy types. So there is a symbolic animal for each Year (12 year cycle - gives overall indication), a  monthly ( 12 solar month cycle - gives further detail), and time of birth (gives even further detail). However your Personal Element is sufficient for ascertaining the best directions for you.*/
 
 [link wiki}
-
-
 
 * DONE Advanced
 ** Preamble
