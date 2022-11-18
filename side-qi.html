@@ -3,10 +3,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <style>
 /*  Media response */
 @media screen and (min-width: 850px) {
-  #main{ margin-left:250px;} 
+  #main{ margin-left:300px;} 
   #ham{ display: none;}
   #close{ display: none;}
   #title{display:none}
@@ -17,7 +18,7 @@
   #main{margin-left:0}
   .column1{width:100%}
   .column2{width:100%}
-  #title{font-size:1.4em}
+  #title{font-size:1.6em}
   #woman{ width:80%; height:80%;}
 }
 @media screen and (min-width: 1200px) {
@@ -29,21 +30,20 @@
 
 <!--    ##### NAVIGATION #####     -->
 <div id="mySidenav" class="sidenav">
-  <span><a href="side-intro.html"><b>Feng Shui </b>& Geomancy</a></span>
-  <a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <a id="menu" href="side-intro.html">INTRO</a>
-  <a href="#" id="menu">THEORY</a>
+  <span><a href="side-intro.html"><b>Feng Shui</b></a></span>
+<a id="close" ahref="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+  <a id="menu" href="side-intro.html"><b>Intro</b></a>
+  <a href="#" id="menu"><b>Theory</b></a>
      <a id="submenu" href="side-qi.html" class="active">- Qi & Taoism</a>
      <a id="submenu" href="side-yy.html">- Yin & Yang</a>
      <a id="submenu" href="side-5ele.html">- 5 Elements</a>
      <a id="submenu" href="side-8dir.html">- 8 Directions</a>
-  <a href="#" id="menu">PRACTICE</a>
+  <a href="#" id="menu"><b>Practice</b></a>
      <a id="submenu" href="#">- Siting/Landscape</a>
      <a id="submenu" href="#">- interior</a>
      <a id="submenu" href="#">- Spaces/Portents</a>
      <a id="submenu" href="#">- Horoscope</a>
-  <a href="#" id="menu">Thoughts</a>
+  <a href="#" id="menu"><b>Thoughts</b></a>
      <a id="submenu" href="#">- Advanced</a>
      <a id="submenu" href="#">- Personal Practice</a>
      <a id="submenu" href="#">- Reading List</a>
@@ -53,7 +53,7 @@
 <div id="main">
 <!-- ###### TOP ^ UP BUTTON ###### -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui </b>& Geomancy</span>
+    <span id="ham" style="font-size:2em;cursor:pointer" onclick="openNav()">&#9776;</span><span id="title";><b>Feng Shui</b></span>
 
 <!-- ##### Sections ##### -->
     
@@ -236,8 +236,8 @@ Using and/or the study of Feng Shui is a very good way to reconnect and be remin
 
 <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "300px";
 }
 
 function closeNav() {
@@ -251,7 +251,7 @@ function myFunction(x) {
   if (x.matches) { // If media query matches
   document.getElementById("mySidenav").style.width = "0";
   } else {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "300px";
   }
 }
 

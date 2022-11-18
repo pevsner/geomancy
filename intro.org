@@ -1,22 +1,35 @@
 #+TITLE:FENG SHUI & GEOMANCY
-#+AUTHOR:Adrian
+#AUTHOR:Adrian
 #+Description: basic text for web site
 **Write a book about practical experience**
-  include stretching, execises.
+  include stretching, exercises.
 * TODO Welcome
 
-This site explains Taoist, Classical, Feng Shui.
-It covers the underlying theory including implementation advise and design suggestions.
-/* Please use it as a resource to discover and promote positive change.
-  With the proviso that this is my own interpretation, and thus maybe incorrect*/
+What follows is an explaination of Taoist, Classical, Feng Shui.
+It covers theory and implementation and offers advise and design suggestions.
+/* Please use it as a resource to discover and promote change.
+  Please remember that this is my own interpretation*/
+
+/*I will try my best to keep it concise and easy to understand*/
 ** Introduction
-Geomancy is the reading of Earths energies (which may include planetary movements) and how they affect us.
+From the beginning of history, man has tried to rationalise his connection with the environment
+and higher forces (Gods).
+Combining the objective world with the (human constructed) subjective world.
+The subjective world being a imagined, unverifiable, external force.
+
+
+
+Geomancy is the reading of Earths energies (which may, or may not, include planetary movements) and how we are affected.
 Geo=earth, Mancy=divination or reading.
 
 Most Ancient Cultures (Aboriginal, African, American Indian, Celtic, Chinese, Egyptian, Indian, Nordic, Mayan etc.) had some form of geomancy.
 
-Classical School Feng Shui is the most comprehensive and well documented form.
-It also offers a way to become more aware of our connection with the environment.
+Classical School Feng Shui is, as far as I have found, the most comprehensive and well documented system.
+It's primary goal is to locate and organize a building to maximize it's (energetic) potential for the benifit
+of residents/users.
+Whilst (just) implementing changes recommended by a knowlegable consultant should prove benificial,
+gaining an understanding of the basic principles offers a way to become more aware of ones connection
+to the environment.
 
 Taoist Metaphysics, from which Feng Shui is derived, explains all creation and subsequent manifestations.
 The use of symbology and myth developed over time helps to make it understandable.
@@ -198,10 +211,10 @@ Philosophy and subsequently engage in Martial Art (Tai Qi, Qi Gong) practices wi
 * TODO Theory
 ** WuQi
 WuQi is the orignal source from which the cosmos was originally born and constantly created.
-It is a unity, a single thing, not of the physical realm.
+It is a unity, a singlularity, not of the physical realm.
 /This is not really definable in western speak./
 /* It might be regarded as "*Dark Matter*", the "*God
-Particle*", or */
+Particle*", or (is dark matter a fabricated concept made to get away with explaining nothing.*/
 scientists might call it dark matter, the god particle, or indeed anti-matter. However one describes it, if at all right, it is "nothingness"
 
 ** What is my take on Wuqi.
@@ -276,7 +289,7 @@ The tighter the connection the harder it is to free.
 
 Chinese Taoists identified a supreme natural power which they called "WU QI".
 
-Wu Qi means nothingness (original source) we might call it God??.
+Wu Qi means nothingness (original source) (we might call it God??.-definately not)
 More like the force/energy that breathes life from the subtle world into the material world.
 *comment* similar to the "spirit" (ethereal subtle) comes into physical body??.
 

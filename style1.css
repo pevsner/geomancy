@@ -1,5 +1,5 @@
 body {
-     font-family:Tahoma, Geneva, sans-serif;
+    font-family:Poppins;
     /* font-family:Arial,Helvetica, sans-serif; */
 }
 div{ margin:0;
@@ -50,7 +50,7 @@ a{
 }
 #submenu {
     font-size: 1em;
-    color: black;    /* light green #e6ffcc; */
+    color: black; 
 }
 #ham{
     margin-right:5px;
@@ -62,24 +62,24 @@ a{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:#ff4d4d; /* green  #4CAF50; */
+  background-color:#ff4d4d;
   overflow-x: hidden;
   transition: 0.1s;
-  padding-top: 8px;
 }
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 10px 10px 10px 32px;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #ffffff;
   display: block;
   transition: 0.1s;
 }
 .sidenav span{
-  padding: 8px 8px 8px 32px;
-  font-size: 1.2em;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.7em;
   background-color:#000;
-  margin-bottom:8px;
+  border-bottom: 1px solid red;
+  // margin-bottom:8px;
   display: block;
 }
 .sidenav a:hover {
@@ -100,7 +100,7 @@ a{
 }
 #submenu.active{
     background-color:#000;
-    color:red;
+    color:#ff0000;
 }
 #menu.active{
     background-color:#000;
